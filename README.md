@@ -47,17 +47,17 @@ Entites are any person or party that has a vehicle or multiple vehicles that req
 
 #### Contract
 
-Contracts are 
+Contracts are deals between entites and drivers.
 
 #### Vehicle
+
+Vehicles are the items being transported. Can be a car or boat.
 
 #### Driver
 
 Drivers are third party oporators who can make a bid to an Entity to provide transportation for the vehicle/s.
 
 There will be two primary account types in Carry Me, an Entity, and a Driver.
-
-
 
 
 
