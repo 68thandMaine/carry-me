@@ -39,11 +39,27 @@ To do:
 
 ### Classes
 
-There will be two primary account types in Carry Me, an Entity, and a Driver.
+The following classes will be needed for the application:
+
+#### Entity
 
 Entites are any person or party that has a vehicle or multiple vehicles that require transportation to a new location.
 
+#### Contract
+
+Contracts are 
+
+#### Vehicle
+
+#### Driver
+
 Drivers are third party oporators who can make a bid to an Entity to provide transportation for the vehicle/s.
+
+There will be two primary account types in Carry Me, an Entity, and a Driver.
+
+
+
+
 
 ___
 
@@ -68,7 +84,9 @@ ___
 
 Features that should be included in this project are:
 
-- authentication 
+- Authentication
+- Google Maps Integration
+- Messaging service from driver to entity
 
 ___
 
@@ -94,8 +112,7 @@ Several things to consider while building this application:
 - Security
   - Express server sending cookies
   - Proxy file
-  - Validation
-  
+  - Validation  
 
 ___
 
