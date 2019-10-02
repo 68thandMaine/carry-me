@@ -32,3 +32,15 @@ exports.show = async (req, res) => {
   }, (err, entity) => entity );
   (entity) ? res.send(entity) : res.send('Resource not found');
 };
+
+exports.delete = async (req, res) => {
+  Entity.deleteOne({
+    _id: req.params.id,
+  }, (err) => {
+    if(err) {
+      res.send('Resource not found');
+    } else {
+      res.send('Deleted successfully');
+    }
+  });
+};

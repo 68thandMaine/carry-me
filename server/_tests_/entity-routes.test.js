@@ -29,7 +29,7 @@ describe('Entity Endpoints', () => {
   it('POST / Should save an Entity to the database', async (done) => {
     const res = await request.post('/carryme')
       .send(mockEntity[0])
-      .set('Accept', 'application.json');
+      .set('Accept', 'application/json');
     expect(res.status).toBe(200);
     done();
     const entity = await Entity.findOne({ email: mockEntity[0].email });
@@ -63,11 +63,21 @@ describe('Entity Endpoints', () => {
     const entityID = entities.body[0]._id;
 
     // This is the actual test
-    const res = await request.get(`/carryme/${entityID}`);
-    console.log(res.body)
-    
+    const res = await request.get(`/carryme/${entityID}`);    
     expect(res.statusCode).toBe(200);
     expect(res.body._id).toEqual(entityID);
+  });
 
+  it('DELETE /:id deletes an entity from the DB', async() => {
+    await Entity.insertMany(mockEntity[0]);
+    const entities = await request.get('/carryme');
+    const entityID = entities.body[0]._id;
+
+    const entity = await request.get(`/carryme/${entityID}`);
+    const deleteUser = await request.delete(`/carryme/${entity.body._id}`);
+    expect(deleteUser.statusCode).toBe(200);
+    expect(deleteUser.text).toEqual('Deleted successfully');
+    const notFound = await request.get(`/carryme/${entityID}`);
+    expect(notFound.text).toEqual('Resource not found');
   });
 });
