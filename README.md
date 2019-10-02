@@ -36,6 +36,7 @@ To do:
 - Set up db
 - Look into authentication from the backend
 - Set up test folders
+- Add logger
 
 ### Classes
 
