@@ -44,3 +44,14 @@ exports.delete = async (req, res) => {
     }
   });
 };
+
+exports.update = async (req, res) => {
+  Entity.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidators: true }, (err, updatedEntity) => {
+    if (err) {
+      res.status(400);
+      res.send(err._message);
+    } else {
+      res.send(updatedEntity);
+    }
+  });
+}

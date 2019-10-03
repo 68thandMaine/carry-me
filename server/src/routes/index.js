@@ -6,5 +6,6 @@ Router.get('/', entityController.index);
 Router.post('/', entityController.create);
 Router.get('/:id', entityController.show);
 Router.delete('/:id', entityController.delete);
+Router.put('/:id', entityController.update);
 
 module.exports = Router;

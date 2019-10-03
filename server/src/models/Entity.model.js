@@ -17,4 +17,5 @@ const EntitySchema = new Schema({
   },
 });
 
+
 module.exports = mongoose.model('Entity', EntitySchema);
