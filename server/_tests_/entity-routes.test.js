@@ -9,15 +9,17 @@ const mockEntity = require('./mock-data/mock-entity');
 const request = supertest(app);
 
 describe('Entity Endpoints', () => {
-  beforeAll(async () => {
+  beforeAll(async (done) => {
     const url = 'mongodb://localhost/test';
     await mongoose.connect(url, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
+    done();
   });
-  afterEach(async () => {
+  afterEach(async (done) => {
     await Entity.deleteMany();
+    done();
   });
 
   it('POST / Should save an Entity to the database', async (done) => {
