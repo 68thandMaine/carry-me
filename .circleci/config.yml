@@ -8,6 +8,7 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/node:7.10
+      - image: circleci/mongo:4.0-xenial
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -32,6 +33,7 @@ jobs:
   test:
     docker:
       -image: circleci/node:7.10
+      - image: circleci/mongo:4.0-xenial
     steps:
       - checkout
       - run:
