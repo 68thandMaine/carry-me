@@ -26,10 +26,6 @@ jobs:
           key: dependency-server-cache-{{ checksum "package.json" }}
           paths:
             - server/node_modules
-      - save_cache:
-          key: dependency-sever-cache-{{ checksum "package.json" }}
-          paths:
-            - node_modules
   test:
     docker:
       - image: circleci/node:7.10
