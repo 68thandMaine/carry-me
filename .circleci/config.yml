@@ -32,7 +32,7 @@ jobs:
             - node_modules
   test:
     docker:
-      -image: circleci/node:7.10
+      - image: circleci/node:7.10
       - image: circleci/mongo:4.0-xenial
     steps:
       - checkout
