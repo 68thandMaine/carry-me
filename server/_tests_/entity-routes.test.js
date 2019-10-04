@@ -24,7 +24,7 @@ describe('Entity Endpoints', () => {
     done();
   });
   afterAll(async (done) => {
-    mongoose.connection.close()
+    mongoose.connection.close();
     done();
   });
 
@@ -33,7 +33,7 @@ describe('Entity Endpoints', () => {
       .send(mockEntity[0])
       .set('Accept', 'application/json');
     expect(res.status).toBe(200);
-    const entity = await Entity.findOne({ email: mockEntity[0].email });
+    const entity = await Entity.findOne({ _id: mockEntity[0]._id });
     expect(entity.entityName).toBeTruthy();
     expect(entity.email).toBeTruthy();
     expect(entity.password).toBeTruthy();

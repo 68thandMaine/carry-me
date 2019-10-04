@@ -11,12 +11,9 @@ exports.index = (req, res) => {
 };
 
 exports.create = async (req, res) => {
-  const { entityName, email, password } = req.body;
-  const entity = new Entity({
-    entityName,
-    email,
-    password,
-  });
+  const entity = new Entity(
+    req.body,
+  );
   entity.save((err, savedEntity) => {
     if (err) {
       res.send(err._message);
@@ -28,8 +25,8 @@ exports.create = async (req, res) => {
 
 exports.show = async (req, res) => {
   const entity = await Entity.findOne({
-    _id: req.params.id
-  }, (err, entity) => entity );
+    _id: req.params.id,
+  }, (err, foundEntity) => foundEntity);
   (entity) ? res.send(entity) : res.send('Resource not found');
 };
 

@@ -115,6 +115,7 @@ Several things to consider while building this application:
   - Proxy file
   - Validation  
 
+**For a list of bugs in Carry-Me [click here](./documentation/Bugs.md).**
 ___
 
 ## VIII
