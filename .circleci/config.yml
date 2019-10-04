@@ -1,7 +1,7 @@
 version: 2.1
 jobs:
   build:
-    # working_directory: ~/repo
+    working_directory: ~/repo
     docker:
       - image: circleci/node:10.16.3
       - image: mongo:4.2.0
@@ -13,8 +13,8 @@ jobs:
       - restore_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
       - run:
-          name: install npm
-          command: npm i
+          name: Visit server and install npm
+          command: cd server && npm i
       - save_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
           paths:
