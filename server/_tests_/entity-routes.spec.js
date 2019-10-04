@@ -12,7 +12,7 @@ const request = supertest(app);
 describe('Entity Endpoints', () => {
 
   beforeAll(async (done) => {
-    const url = 'mongodb://localhost/test';
+    const url = 'mongodb://localhost/entity';
     await mongoose.connect(url, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
