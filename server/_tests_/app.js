@@ -14,6 +14,7 @@ mongoose.connect(MongoDB, {
   useNewUrlParser: true, 
   useUnifiedTopology: true,
 });
+mongoose.set('useFindAndModify', false);
 
 const app = express();
 

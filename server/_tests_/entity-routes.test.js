@@ -10,6 +10,7 @@ const request = supertest(app);
 
 
 describe('Entity Endpoints', () => {
+
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/test';
     await mongoose.connect(url, {
@@ -23,7 +24,7 @@ describe('Entity Endpoints', () => {
     done();
   });
   afterAll(async (done) => {
-    await mongoose.connection.close();
+    mongoose.connection.close()
     done();
   });
 
@@ -31,12 +32,12 @@ describe('Entity Endpoints', () => {
     const res = await request.post('/carryme')
       .send(mockEntity[0])
       .set('Accept', 'application/json');
-      done();
     expect(res.status).toBe(200);
     const entity = await Entity.findOne({ email: mockEntity[0].email });
     expect(entity.entityName).toBeTruthy();
     expect(entity.email).toBeTruthy();
     expect(entity.password).toBeTruthy();
+    done();
   });
   it('POST / Should return validation error message if missing required properties', async (done) => {
     const res = await request.post('/carryme')
