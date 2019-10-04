@@ -59,13 +59,13 @@ const EntitySchema = new Schema({
     type: Number,
     required: false,
   },
+  messages: {
+    type: Schema.Types.ObjectId,
+  },
   createdAt: {
     type: Date,
     required: true,
   },
-  messages: {
-    type: Schema.Types.ObjectId,
-  }
 });
 
 
