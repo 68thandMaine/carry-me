@@ -18,12 +18,12 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: dependency-server-cache-{{ checksum "package.json" }}
+          key: dependency-cache-{{ checksum "package.json" }}
       - run:
           name: Server Install NPM
           command: cd server && npm i
       - save_cache:
-          key: dependency-server-cache-{{ checksum "package.json" }}
+          key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - server/node_modules
   test:
