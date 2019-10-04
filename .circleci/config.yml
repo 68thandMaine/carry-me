@@ -35,6 +35,9 @@ jobs:
       - run:
           name: Server install NPM
           command: cd server && npm i
+      - run:
+          name: Start Server
+          command: npm run dev
       - run: 
           name: Servert tests
           command: cd server && npm run test --detectOpenHandles
