@@ -19,6 +19,9 @@ describe('Entity Endpoints', () => {
   afterEach(async () => {
     await Entity.deleteMany();
   });
+  afterAll(async () => {
+    mongoose.disconnect();
+  });
 
   it('POST / Should save an Entity to the database', async () => {
     const res = await request.post('/carryme')
