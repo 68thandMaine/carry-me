@@ -2,17 +2,17 @@ const mongoose = require('mongoose');
 const supertest = require('supertest');
 const app = require('./app');
 
-const Entity = require('../src/models/Entity.model');
+const Entity = require('../src/models/Entity.model'); 
 const mockEntity = require('./mock-data/mock-entity');
 
 
 const request = supertest(app);
 
 
-describe('Entity Endpoints', () => {
+describe.only('Entity Endpoints', () => {
 
   beforeAll(async (done) => {
-    const url = 'mongodb://localhost/test';
+    const url = 'mongodb://localhost/entity';
     await mongoose.connect(url, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
@@ -24,7 +24,7 @@ describe('Entity Endpoints', () => {
     done();
   });
   afterAll(async (done) => {
-    mongoose.connection.close();
+    await mongoose.connection.close();
     done();
   });
 

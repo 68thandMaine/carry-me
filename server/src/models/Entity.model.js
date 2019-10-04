@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
+
 const EntitySchema = new Schema({
   entityName: {
     type: String,
@@ -52,15 +53,17 @@ const EntitySchema = new Schema({
     type: Number,
     required: true,
   },
-  contracts: {
+  contracts: [{
     type: Schema.Types.ObjectId,
-  },
+    ref: 'Contract',
+    default: undefined,
+  }],
   rating: {
     type: Number,
-    required: false,
   },
   messages: {
     type: Schema.Types.ObjectId,
+    ref: 'Message',
   },
   createdAt: {
     type: Date,
