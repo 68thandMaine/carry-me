@@ -17,10 +17,10 @@ describe('Entity Endpoints', () => {
     });
     done();
   });
-  afterEach(async (done) => {
-    await Entity.deleteMany();
-    done();
-  });
+  // afterEach(async (done) => {
+  //   await Entity.deleteMany();
+  //   done();
+  // });
   afterAll(async (done) => {
     await mongoose.disconnect();
     done();
