@@ -16,7 +16,7 @@ jobs:
           name: install npm
           command: npm i
       - save_cache:
-          key: dependency-cache-{{ checkum "package-lock.json" }}
+          key: dependency-cache-{{ checksum "package-lock.json" }}
           paths:
             - ./node_modules
       - run:
