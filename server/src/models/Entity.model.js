@@ -25,8 +25,8 @@ const EntitySchema = new Schema({
     required: true,
   },
   accountOwner_PhoneType: {
-   type: String,
-   required: true, 
+    type: String,
+    required: true, 
   },
   accountOwner_PhoneNumber: {
     type: String,
@@ -34,10 +34,6 @@ const EntitySchema = new Schema({
   },
   entityPhoneNumber: {
     type: Number,
-    required: true,
-  },
-  created: {
-    type: Date,
     required: true,
   },
   street: {
@@ -59,6 +55,17 @@ const EntitySchema = new Schema({
   contracts: {
     type: Schema.Types.ObjectId,
   },
+  rating: {
+    type: Number,
+    required: false,
+  },
+  createdAt: {
+    type: Date,
+    required: true,
+  },
+  messages: {
+    type: Schema.Types.ObjectId,
+  }
 });
 
 
