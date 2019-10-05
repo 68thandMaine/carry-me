@@ -1,5 +1,5 @@
 const correctEntry = {
-  _id: '5d96cc3750ffe5bac5346dfd',
+  _id: '5d99241458f299f97c46d959',
   entityName: 'Anderson Valley Group',
   email: 'andersoncorp@gmail.com',
   password: 'vallygurl13',
@@ -34,6 +34,6 @@ const entry1 = {
   city: 'Fairfax',
   state: 'VA',
   zip: 22030,
-  contracts: ['5d96b7314f8bb6b2cab024b5'],
+  contracts: ['5d96b7314f8bb6b2cab024b5'], // Contract for no driver no vehicles
 };
-module.exports = [correctEntry, incorrectEntry];
+module.exports = [correctEntry, incorrectEntry, entry1];

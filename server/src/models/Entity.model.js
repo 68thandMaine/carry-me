@@ -57,7 +57,6 @@ const EntitySchema = new Schema({
   },
   rating: {
     type: Number,
-    required: false,
   },
   messages: {
     type: Schema.Types.ObjectId,

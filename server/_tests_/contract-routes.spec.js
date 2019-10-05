@@ -28,8 +28,8 @@ describe('Contract Endpoints', () => {
   });
 
   it('GET /carryme/:entityId/contract will return 200 if no contracts are in the Db', async(done) => {
-    const res = await request.get(`/carryme/${mockEntities[0]._id}`);
-    console.log(res.body);
+    const res = await request.get(`/carryme/${mockEntities[0]._id}/contract`);
+    console.log(res);
     done();
   });
   
