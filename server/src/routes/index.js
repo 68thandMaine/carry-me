@@ -9,6 +9,9 @@ Router.get('/:id', entityController.show);
 Router.delete('/:id', entityController.delete);
 Router.put('/:id', entityController.update);
 
-Router.get('/:entityId/contract', contractController.index);
-// Router.post('/:entityId/contract', contractController.create);
+Router.get('/contract', contractController.index);
+Router.post('/:entityId/contract', contractController.create);
+Router.get('/:entityId/contract', contractController.showEntityContracts);
+Router.get('/contract/:contractID', contractController.getOneContract);
+
 module.exports = Router;

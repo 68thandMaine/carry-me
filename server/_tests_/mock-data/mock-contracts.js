@@ -1,5 +1,4 @@
 const contractNoDriverNoVehicles = {
-  _id: '5d96b7314f8bb6b2cab024b5',
   availability: true,
   entity: '5d96cc3750ffe5bac5346dfd',
   createdAt: 'Fri Oct 04 2019 12:23:42 GMT-1700 (Pacific Daylight Time)',
@@ -11,6 +10,7 @@ const contractNoDriverNoVehicles = {
   location_end: 'Norfolk, VA',
   shipBy: 'Sat Oct 05 2019 12:23:42 GMT-1700 (Pacific Daylight Time)',
   contractClosed: false,
-}; 
+  name: 'four bmw'
+};
 
 module.exports = [contractNoDriverNoVehicles];

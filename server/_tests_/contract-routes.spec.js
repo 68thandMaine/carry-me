@@ -3,6 +3,7 @@ const supertest = require('supertest');
 const app = require('./app');
 
 const Contract = require('../src/models/Contract.model');
+const Entity = require('../src/models/Entity.model');
 const mockContracts = require('./mock-data/mock-contracts.js');
 const mockEntities = require('./mock-data/mock-entity.js');
 
@@ -15,7 +16,6 @@ describe('Contract Endpoints', () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    await Contract.insertMany(mockContracts[0]);
     done();
   });
   afterEach(async (done) => {
@@ -23,17 +23,46 @@ describe('Contract Endpoints', () => {
     done();
   });
   afterAll(async (done) => {
-    mongoose.connection.close();
+    await Entity.deleteMany();
+    await mongoose.connection.close();
     done();
   });
 
-  it('GET /carryme/:entityId/contract will return 200 if no contracts are in the Db', async(done) => {
-    const res = await request.get(`/carryme/${mockEntities[0]._id}/contract`);
-    console.log(res);
+  it('GET /carryme/contract will return 200 if no contracts are in the Db', async (done) => {
+    const res = await request.get('/carryme/contract');
+    console.log(res.status);
     done();
   });
+
+  // it('GET /carryme/:entityId/contract will return 200 if no contracts are in the Db', async(done) => {
+  //   const res = await request.get(`/carryme/${mockEntities[0]._id}/contract`);
+  //   expect(res.status).toBe(200);
+  //   expect(res.body.toBe([]));
+  //   done();
+  // });
+
+  // it('GET /carryme/contract/:contractId will return the contract from the db', async (done) => {
+  //   let contractID = null;
+  //   const contract = await Contract.insertMany(mockContracts[0]);
+  //   // Use .toString() because contract[0]._id === object and
+  //   // .getContract.body._id === string
+  //   contractID = contract[0]._id.toString();
+  //   const getContract = await request.get(`/carryme/contract/${contract[0]._id}`);
+  //   expect(getContract.body._id).toBe(contractID);
+  //   expect(getContract.status).toBe(200);
+  //   done();
+  // });
   
-  // it('POST /carryme/:entityId/contract will error without appropriate entityId', async(done) => {
-  //   const res = await request.post(`/carryme/${entityId}`)
+  // it('POST /carryme/:entityId/contract will post a contract to an Entity', async (done) => {
+  //   let entityID = null;
+  //   const entity = await Entity.insertMany(mockEntities[0]);
+  //   entityID = entity[0]._id.toString();
+  //   const newContract = await request.post(`/carryme/${entityID}/contract`)
+  //     .send(mockContracts[0])
+  //     .set('Accept', 'application/json');
+  //   const contractEntityID = newContract.body.entity;
+
+  //   expect(entityID).toEqual(contractEntityID);
+  //   done();
   // });
 });

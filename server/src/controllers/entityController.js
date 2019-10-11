@@ -14,7 +14,7 @@ exports.create = async (req, res) => {
   const entity = new Entity(
     req.body,
   );
-  entity.save((err, savedEntity) => {
+  await entity.save((err, savedEntity) => {
     if (err) {
       res.send(err._message);
     } else {
@@ -43,9 +43,8 @@ exports.delete = async (req, res) => {
 };
 
 exports.update = async (req, res) => {
-  Entity.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidators: true }, (err, updatedEntity) => {
+  await Entity.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidators: true }, (err, updatedEntity) => {
     if (err) {
-      res.status(400);
       res.send(err._message);
     } else {
       res.send(updatedEntity);
