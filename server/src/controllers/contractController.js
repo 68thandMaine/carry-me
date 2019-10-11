@@ -1,16 +1,15 @@
 const Contract = require('../models/Contract.model');
 
 exports.index = async (req, res) => {
-  console.log('contractController');
+  console.log('hi')
+  await Contract.find().exec((err, contracts) => {
+    if (err) {
+      res.send("This doesn't exist");
+    } else {
+      res.send(contracts);
+    }
+  });
 };
-
-// .exec((err, contracts) => {
-//   if (err) {
-//     res.send("This doesn't exist");
-//   } else {
-//     res.send(contracts);
-//   }
-// });
 
 exports.create = async (req, res) => {
   const newContract = new Contract(req.body);

@@ -13,27 +13,27 @@ exports.index = (req, res) => {
 exports.create = async (req, res) => {
   const entity = new Entity(
     req.body,
-  );
-  await entity.save((err, savedEntity) => {
-    if (err) {
-      res.send(err._message);
-    } else {
-      res.send(savedEntity);
-    }
-  });
-};
-
-exports.show = async (req, res) => {
-  const entity = await Entity.findOne({
-    _id: req.params.id,
-  }, (err, foundEntity) => foundEntity);
-  (entity) ? res.send(entity) : res.send('Resource not found');
-};
-
-exports.delete = async (req, res) => {
-  Entity.deleteOne({
-    _id: req.params.id,
-  }, (err) => {
+    );
+    await entity.save((err, savedEntity) => {
+      if (err) {
+        res.send(err._message);
+      } else {
+        res.send(savedEntity);
+      }
+    });
+  };
+  
+  exports.show = async (req, res) => {
+    const entity = await Entity.findOne({
+      _id: req.params.id,
+    }, (err, foundEntity) => foundEntity);
+    (entity) ? res.send(entity) : res.send('Resource not found');
+  };
+  
+  exports.delete = async (req, res) => {
+    Entity.deleteOne({
+      _id: req.params.id,
+    }, (err) => {
     if(err) {
       res.send('Resource not found');
     } else {
@@ -50,4 +50,4 @@ exports.update = async (req, res) => {
       res.send(updatedEntity);
     }
   });
-}
+};
