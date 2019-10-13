@@ -28,39 +28,18 @@ ___
 
 ## III. Backend
 
-To do:
-
-- Create classes
-- Create routes
-- Create controllers
-- Set up db
-- Look into authentication from the backend
-- Set up test folders
-- Add logger
-
 ### Classes
 
-The following classes will be needed for the application:
+|||
+|---|---|
+| [Entity](./documentation/Entity.md)| [Contract](./documentation/Contract.md) |
+| [Driver](./documentation/Driver.md)| [Vehicle](./documentation/Vehicle.md) |
 
-#### Entity
+#### To do:
 
-Entites are any person or party that has a vehicle or multiple vehicles that require transportation to a new location.
+- Look into authentication from the backend
 
-#### Contract
-
-Contracts are deals between entites and drivers.
-
-#### Vehicle
-
-Vehicles are the items being transported. Can be a car or boat.
-
-#### Driver
-
-Drivers are third party oporators who can make a bid to an Entity to provide transportation for the vehicle/s.
-
-There will be two primary account types in Carry Me, an Entity, and a Driver.
-
-
+- Add logger
 
 ___
 
@@ -77,7 +56,7 @@ To do:
 - Create routes
 - Create CI/CD pipeline
 - Research amazon web services
-- Develop mobile app with React Native
+- Develop mobile app with React Native or Flutter
 
 ___
 
