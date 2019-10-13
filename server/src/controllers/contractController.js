@@ -12,7 +12,6 @@ exports.index = async (req, res) => {
 };
 
 exports.create = async (req, res) => {
-  console.log*('contract controller create')
   const newContract = new Contract(req.body);
   await newContract.save().then((data) => {
     res.send(data);
@@ -22,7 +21,6 @@ exports.create = async (req, res) => {
 };
 
 exports.showEntityContracts = async (req, res) => {
-  console.log*('contract controller show')
   await Contract.find({ entity: req.params.entityId }).exec((err, contract) => {
     if(err) {
       res.send(err._message);
@@ -33,7 +31,7 @@ exports.showEntityContracts = async (req, res) => {
 };
 
 exports.showOneContract = async (req, res) => {
-  console.log*('contract controller show')
+  console.log('contract controller show')
   const contract = await Contract.findOne({
     _id: req.params.contractId,
   }, (err, foundContract) => foundContract);

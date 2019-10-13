@@ -1,6 +1,6 @@
 const Router = require('express').Router();
 
-// const contractController = require('../controllers/contractController.js');
+const contractController = require('../controllers/contractController.js');
 // const driverController = require('../controllers/driverController.js');
 // const entityController = require('../controllers/entityController.js');
 

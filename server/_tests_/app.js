@@ -4,6 +4,7 @@ const dotenv = require('dotenv');
 const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
+
 const entity = require('../src/routes/entity-routes.js');
 const driver = require('../src/routes/driver-routes.js');
 const contract = require('../src/routes/contract-routes.js');
