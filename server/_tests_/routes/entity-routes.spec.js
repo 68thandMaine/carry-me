@@ -9,7 +9,7 @@ const mockEntity = require('../mock-data/mock-entity');
 const request = supertest(app);
 
 
-describe('Entity Endpoints', () => {
+describe.skip('Entity Endpoints', () => {
 
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/entity';

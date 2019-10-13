@@ -17,13 +17,14 @@ Router.put('/:id', entityController.update);
 
 Router.post('/:entityId/contract', contractController.create);
 Router.get('/:entityId/contract', contractController.showEntityContracts);
-Router.get('/:entityId/:contractId', contractController.showOneContract);
+// Router.get('/:entityId/:contractId', contractController.showOneContract);
 Router.put('/:entityId/:contractId', contractController.update);
 Router.delete('/:entityId/:contractId', contractController.delete);
 
 /** DRIVER ROUTES */
 
 Router.post('/driver', driverController.create);
+Router.get('/driver/:driverId', driverController.show);
 
 /** ADMIN ROUTES */
 Router.get('/admin/contract/', contractController.index);

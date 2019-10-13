@@ -11,7 +11,7 @@ const mockEntities = require('../mock-data/mock-entity.js');
 const mockDriver = require('../mock-data/mock-driver.js');
 const service = require('../services/compare');
 
-describe.only('Driver routes', () => {
+describe('Driver routes', () => {
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/driver';
     await mongoose.connect(url, {
@@ -29,7 +29,7 @@ describe.only('Driver routes', () => {
     done();
   });
 
-  it.only('POST /carryme/driver will create a new driver in the database', async (done) => {
+  it('POST /carryme/driver will create a new driver in the database', async (done) => {
     const newDriver = await request.post('/carryme/driver')
       .send(mockDriver[0])
       .set('Accept', 'application/json');
@@ -38,20 +38,25 @@ describe.only('Driver routes', () => {
     service.compareObjects(mockDriver[0], driver);
     done();
   });
-  it('GET /carryme/:driverId will return one driver from the database', async(done) => {
-
+  it.only('GET /carryme/driver/:driverId will return one driver from the database', async (done) => {
+    let driverID = null;
+    const driver = await Driver.insertMany(mockDriver[0]);
+    driverID = driver[0]._id
+    const getDriver = await request.get(`/carryme/driver/${driverID}`);
+    console.log(driverID);
+    done();
   });
   it('GET /carryme/:driverId/contract will return all contracts related to a driver', async (done) =>{
-
+    done();
   });
   it('GET /carryme/:driverId/:contractId will return one contract related to a driver', async (done) => {
-
+    done();
   });
   it('PUT /carryme/:diverId will update driver information in the database', async (done) => {
-
+    done();
   });
   it('DELETE /carryme/:driverId will delete a driver from the database', async (done) => {
-
+    done();
   });
 
 });
