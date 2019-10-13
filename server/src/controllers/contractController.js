@@ -1,7 +1,7 @@
 const Contract = require('../models/Contract.model');
 
 exports.index = async (req, res) => {
-  console.log('hi')
+  console.log('contract controller index');
   await Contract.find().exec((err, contracts) => {
     if (err) {
       res.send("This doesn't exist");
@@ -12,6 +12,7 @@ exports.index = async (req, res) => {
 };
 
 exports.create = async (req, res) => {
+  console.log*('contract controller create')
   const newContract = new Contract(req.body);
   await newContract.save().then((data) => {
     res.send(data);
@@ -21,6 +22,7 @@ exports.create = async (req, res) => {
 };
 
 exports.showEntityContracts = async (req, res) => {
+  console.log*('contract controller show')
   await Contract.find({ entity: req.params.entityId }).exec((err, contract) => {
     if(err) {
       res.send(err._message);
@@ -30,13 +32,34 @@ exports.showEntityContracts = async (req, res) => {
   });
 };
 
-exports.getOneContract = async (req, res) => {
-  await Contract.findOne({ _id: req.params.contractID }).exec((err, contract) => {
+exports.showOneContract = async (req, res) => {
+  console.log*('contract controller show')
+  const contract = await Contract.findOne({
+    _id: req.params.contractId,
+  }, (err, foundContract) => foundContract);
+  (contract) ? res.send(contract) : res.send('Resource not found.');
+};
+
+exports.update = async (req, res) => {
+  console.log*('contract controller update')
+  await Contract.findByIdAndUpdate(req.params.contractId, req.body, {
+    new: true,
+    runValidators: true,
+  }, (err, updatedContract) => {
     if (err) {
       res.send(err._message);
     } else {
-      res.send(contract);
-      return contract;
+      res.send(updatedContract);
+    }
+  });
+};
+
+exports.delete = async (req, res) => {
+  await Contract.deleteOne({ _id: req.params.contractId }, (err) => {
+    if (err) {
+      res.send(err._message);
+    } else {
+      res.send('Contract removed successfully!');
     }
   });
 };
