@@ -27,6 +27,18 @@ const DriverSchema = new Schema ({
     type: Number,
     required: true,
   },
+  email: {
+    type: String,
+    required: true,
+  },
+  phoneNumber: {
+    type: String,
+    required: true,
+  },
+  phoneType: {
+    type: String,
+    required: true,
+  },
   contracts: [{
     type: Schema.Types.ObjectId,
   }],

@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 const supertest = require('supertest');
-const app = require('./app');
+const app = require('../app');
 
-const Contract = require('../src/models/Contract.model');
-const Entity = require('../src/models/Entity.model');
-const mockContracts = require('./mock-data/mock-contracts.js');
-const mockEntities = require('./mock-data/mock-entity.js');
+const Contract = require('../../src/models/Contract.model');
+const Entity = require('../../src/models/Entity.model');
+const mockContracts = require('../mock-data/mock-contracts.js');
+const mockEntities = require('../mock-data/mock-entity.js');
 
 const request = supertest(app);
 

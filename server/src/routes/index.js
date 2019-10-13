@@ -1,6 +1,7 @@
 const Router = require('express').Router();
 
 const contractController = require('../controllers/contractController.js');
+const driverController = require('../controllers/driverController.js');
 const entityController = require('../controllers/entityController.js');
 
 /** ENTITY ROUTES */
@@ -19,6 +20,10 @@ Router.get('/:entityId/contract', contractController.showEntityContracts);
 Router.get('/:entityId/:contractId', contractController.showOneContract);
 Router.put('/:entityId/:contractId', contractController.update);
 Router.delete('/:entityId/:contractId', contractController.delete);
+
+/** DRIVER ROUTES */
+
+Router.post('/driver', driverController.create);
 
 /** ADMIN ROUTES */
 Router.get('/admin/contract/', contractController.index);

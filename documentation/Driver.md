@@ -15,5 +15,12 @@ A driver is made up of a:
 - city
 - state
 - zip
+- email
+- phone number
+- phone type
 - contracts array
 - payment info
+
+___
+
+
