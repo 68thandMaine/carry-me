@@ -17,6 +17,7 @@ const ContractSchema = new Schema({
   },
   driver: {
     type: Schema.Types.ObjectId,
+    ref: 'Driver',
   },
   createdAt: {
     type: Date,
