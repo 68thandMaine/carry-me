@@ -1,7 +1,6 @@
 const Entity = require('../models/Entity.model');
 
 exports.index = (req, res) => {
-  console.log('entity controller index');
   Entity.find().exec((err, entities) => {
     if (err) {
       res.send("This doesn't exist");
@@ -12,7 +11,6 @@ exports.index = (req, res) => {
 };
 
 exports.create = async (req, res) => {
-  console.log('entity controller create');
   const entity = new Entity(
     req.body,
   );
@@ -26,7 +24,6 @@ exports.create = async (req, res) => {
 };
 
 exports.show = async (req, res) => {
-  console.log('entity controller show');
   const entity = await Entity.findOne({
     _id: req.params.id,
   }, (err, foundEntity) => foundEntity);
@@ -34,7 +31,6 @@ exports.show = async (req, res) => {
 };
 
 exports.delete = async (req, res) => {
-  console.log('entity controller delete');
   Entity.deleteOne({
     _id: req.params.id,
   }, (err) => {
