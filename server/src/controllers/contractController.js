@@ -1,7 +1,6 @@
 const Contract = require('../models/Contract.model');
 
 exports.index = async (req, res) => {
-  console.log('contract controller index');
   await Contract.find().exec((err, contracts) => {
     if (err) {
       res.send("This doesn't exist");
@@ -31,7 +30,6 @@ exports.showEntityContracts = async (req, res) => {
 };
 
 exports.showOneContract = async (req, res) => {
-  console.log('contract controller show')
   const contract = await Contract.findOne({
     _id: req.params.contractId,
   }, (err, foundContract) => foundContract);
@@ -39,7 +37,6 @@ exports.showOneContract = async (req, res) => {
 };
 
 exports.update = async (req, res) => {
-  console.log*('contract controller update')
   await Contract.findByIdAndUpdate(req.params.contractId, req.body, {
     new: true,
     runValidators: true,

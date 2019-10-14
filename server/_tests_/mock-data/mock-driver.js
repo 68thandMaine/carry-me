@@ -1,4 +1,4 @@
-const driver1 = {
+const driverNoID = {
   firstName: 'Archy',
   lastName: 'Ballsford',
   address: '101 SW First St.',
@@ -11,5 +11,31 @@ const driver1 = {
   contracts: [],
   paymentInfo: [],
 };
-
-module.exports = [driver1];
+const updatedDriverNoId = {
+  firstName: 'Archy',
+  lastName: 'Ballsford',
+  address: '101 SW First St.',
+  city: 'Williamsburg',
+  state: 'VA',
+  zip: 22096,
+  email: 'gmail@caremail.com',
+  phoneNumber: '7039945979',
+  phoneType: 'cell',
+  contracts: [],
+  paymentInfo: [],
+} 
+const driverID = {
+  _id: '5da39be0d4381609f9bc9c26',
+  firstName: 'Archy',
+  lastName: 'Ballsford',
+  address: '101 SW First St.',
+  city: 'Williamsburg',
+  state: 'VA',
+  zip: 22096,
+  email: 'darkside69@caremail.com',
+  phoneNumber: '7039945979',
+  phoneType: 'cell',
+  contracts: [],
+  paymentInfo: [],
+};
+module.exports = [driverNoID, driverID, updatedDriverNoId];
