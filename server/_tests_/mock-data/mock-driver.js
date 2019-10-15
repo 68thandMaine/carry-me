@@ -5,6 +5,7 @@ const driverNoID = {
   city: 'Williamsburg',
   state: 'VA',
   zip: 22096,
+  password: 'cdsa;fkdsja',
   email: 'darkside69@caremail.com',
   phoneNumber: '7039945979',
   phoneType: 'cell',
@@ -15,6 +16,7 @@ const updatedDriverNoId = {
   firstName: 'Archy',
   lastName: 'Ballsford',
   address: '101 SW First St.',
+  password: 'cdsa;fkdsja',
   city: 'Williamsburg',
   state: 'VA',
   zip: 22096,
@@ -26,7 +28,7 @@ const updatedDriverNoId = {
 } 
 const driverID = {
   _id: '5da39be0d4381609f9bc9c26',
-  firstName: 'Archy',
+  firstName: 'Jacky',
   lastName: 'Ballsford',
   address: '101 SW First St.',
   city: 'Williamsburg',
@@ -35,6 +37,7 @@ const driverID = {
   email: 'darkside69@caremail.com',
   phoneNumber: '7039945979',
   phoneType: 'cell',
+  password: 'cdsa;fkdsja',
   contracts: [],
   paymentInfo: [],
 };

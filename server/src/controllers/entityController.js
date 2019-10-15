@@ -27,7 +27,7 @@ exports.show = async (req, res) => {
   const entity = await Entity.findOne({
     _id: req.params.id,
   }, (err, foundEntity) => foundEntity);
-  (entity) ? res.send(entity) : res.send('Resource not found');
+  (entity) ? res.send(entity) : res.status(404).send('Resource not found');
 };
 
 exports.delete = async (req, res) => {

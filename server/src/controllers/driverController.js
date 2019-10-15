@@ -7,7 +7,6 @@ exports.create = async (req, res) => {
 };
 
 exports.show = async (req, res) => {
-
   const driver = await Driver.findOne({
     _id: req.params.driverId,
   }, (err, foundDriver) => foundDriver);
