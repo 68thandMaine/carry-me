@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 
 
 /** ROUTES */
+const admin = require('../src/routes/admin-routes.js');
 const contract = require('../src/routes/contract-routes.js');
 const driver = require('../src/routes/driver-routes.js');
 const entity = require('../src/routes/entity-routes.js');
@@ -38,9 +39,10 @@ app.use(bodyParser.urlencoded({ limit: '50mb', extended: true}));
 app.use(cors());
 
 
+app.use('/admin', admin);
+app.use('/contract', contract);
 app.use('/driver', driver);
 app.use('/entity', entity);
-app.use('/contract', contract);
 app.use('/vehicle', vehicle);
 
 app.get('/', (req, res) => {

@@ -16,11 +16,22 @@ const correctEntry = {
   contracts:[ ],
 };
 const incorrectEntry = {
-  password: 'vallygurl13',
+  password: 'vallygurl14',
   entityName: 'Anderson Valley Group',
+  createdAt: '2019-10-05',
+  zip: 322,
+  state: 'WA',
+  street: '323 SW Wallaby Ave',
+  entityPhoneNumber: '5438942939',
+  accountOwner_FirstName: 'Carl',
+  accountOwner_LastName: 'Fancygrove',
+  accountOwner_PhoneNumber: '4321874393',
+  email: 'gela@gmail.com',
+  city: 'Oak City',
+  accountOwner_PhoneType: 'work',
 };
 const entry1 = {
-  _id: '5d96cc3750ffe5bac5346dfd',
+  _id: '5d96cc3750ffe5bac5246dfd',
   entityName: 'Jackson Maxson Laxin',
   email: 'jsLaxin@gmail.com',
   password: 'storetourl13',
