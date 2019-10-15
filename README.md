@@ -36,12 +36,7 @@ ___
 |---|---|
 | [Entity](./documentation/Entity.md)| [Contract](./documentation/Contract.md) |
 | [Driver](./documentation/Driver.md)| [Vehicle](./documentation/Vehicle.md) |
-
-#### To do:
-
-- Look into authentication from the backend
-
-- Add logger
+| [Admin](./documentation/Admin.md) | |
 
 ___
 

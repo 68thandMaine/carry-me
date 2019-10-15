@@ -12,6 +12,11 @@
 | Discuss what features a driver should have | [ ] |
 | Discuss what features an entity should have | [ ] |
 
+I need to understand write about MongoDB and Mongoose schemas in detail.
+ 
+I need to understand why i'm using dotenv, morgan, and cors in the app setup.
+
+I need to understand express setup.
 ___
 
 **Frontend Tasks**
@@ -19,3 +24,9 @@ ___
 | Task | Complete |
 | --- | --- |
 | Find api for car manufacturers and models | [ ] |
+
+Interesting Schema Types:
+
+- Unique: ensure that a unique index is created for this path. If the index already exists on the DB then it will not be replaced.
+
+Since Carry-Me uses MongoDB as a DB and Mongoose as a framework, the Carry-Me relies on Schemas to create the structure of the classes.
