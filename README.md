@@ -18,7 +18,9 @@ ___
 
 ## I. Description
 
-Carry Me is Uber/Lyft of the car transportation world. The basic idea is that entites that have cars which need to be moved to a diffent location can advertise their requirements and drivers can bid on the contract. 
+Carry Me is Uber/Lyft of the car transportation world. Here's the idea:
+
+Entites (those who have vehicles that need to be transported from A to B) can set out contracts in an open market for drivers to transport. Drivers bid on the contracts within a given timeframe, and the winner of the bid gets paid. Simple.
 
 ___
 
