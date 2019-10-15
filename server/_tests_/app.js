@@ -5,6 +5,9 @@ const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 
+const config = require('../config/config');
+const jSend = require('../lib/jsend');
+
 /** ROUTE FILES */
 const admin = require('../src/routes/admin-routes.js');
 const contract = require('../src/routes/contract-routes.js');

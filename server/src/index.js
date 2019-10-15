@@ -1,10 +1,12 @@
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const dotenv = require('dotenv');
+require('dotenv').config;
 const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 
+const config = require('../config/config');
+const jSend = require('../lib/jsend');
 
 /** ROUTES */
 const admin = require('../src/routes/admin-routes.js');
@@ -13,9 +15,8 @@ const driver = require('../src/routes/driver-routes.js');
 const entity = require('../src/routes/entity-routes.js');
 const vehicle = require('../src/routes/vehicle-routes.js');
 
-dotenv.config();
 
-const MongoDB =  `${process.env.CARRYMEDB}`;
+const MongoDB = `${process.env.CARRYMEDB}`;
 
 mongoose.connect(MongoDB, {
   useNewUrlParser: true, 
@@ -45,9 +46,9 @@ app.use('/driver', driver);
 app.use('/entity', entity);
 app.use('/vehicle', vehicle);
 
-app.get('/', (req, res) => {
-  res.send('Carry-Me Server');
+
+const server = app.listen(config.app.port, () => {
+  console.log(`${config.app.name} Server is running`);
 });
 
-const server = app.listen(process.env.PORT);
 module.exports = server;
