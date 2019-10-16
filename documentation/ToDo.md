@@ -3,14 +3,14 @@
 **Backend Tasks**
 | Task | Complete |
 | --- | --- |
-| Add authentication on the backend | [ ] |
-| Create a tested vehicle class and corresponding routes | [ ] |
 | Update Contract model for bid history property | [ ] |
-| Create property for holding pictures of a vehcile | [ ] |
 | Write model tests | [ ] |
 | Refactor Test files | [ ]|
-| Discuss what features a driver should have | [ ] |
-| Discuss what features an entity should have | [ ] |
+| Add authentication on the backend | [x] |
+| Create a tested vehicle class and corresponding routes | [x] |
+| Create property for holding pictures of a vehcile | [x] |
+| Discuss what features a driver should have | [x] |
+| Discuss what features an entity should have | [x] |
 
 ___
 
@@ -68,7 +68,17 @@ I am using [this tutorial](https://auth0.com/blog/developing-well-organized-apis
     - > _Not sure pagination is yet_
   - Otherwise return simply a success message and the data.
 
+- To set up the looger create a `./app/lib`. Then require 3 properties from the the winston package:
+  - transports: transports are essentially storage devices for the logs.
+  - format
+  - createLogger
+
+  Then several formatting properties are retrieived from `winston.format`. Then the logger is created. Interestingly the file is a function that is called in the `module.exports` funtion. I believe that when the logger is instantiated with the `create()` method, an object containing the result of the logger function and the properties from format is returned. **Basically this creates a logger using Winston settings**
+
+- To set up dependency injection we create a custom library called `service_locator`. This injects dependencies into the objects.
 
 1. Create `lib` directory in the root of the `server` directory.
 2. Add file for middleware intercepting client requests function.
-3. Reconfigure the `/server/index.js` and `/server/_tests_/app.js` files
+3. Reconfigure the `/server/index.js` and `/server/_tests_/app.js` files so that they rely on the values of the config object. Make sure you instantiate it with ().
+4. Set up the logger. Logger is provided through the Winston npm package.
+5. Set up dependency injection. File is created in configs directory

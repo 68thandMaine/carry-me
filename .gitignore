@@ -1,4 +1,8 @@
+# IGNORED DOCUMENTATION
 /documentation/Competition.md
 /documentation/competition/
-/server/node_modules
 /documentation/ToDo.md
+/documentation/notes/logger.md
+
+/server/node_modules
+/server/.env
