@@ -1,12 +1,13 @@
 const bodyParser = require('body-parser');
 const cors = require('cors');
-require('dotenv').config;
+const dotenv = require('dotenv');
+
 const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 
-const config = require('../config/config');
-const jSend = require('../lib/jsend');
+const config = require('../config/config')();
+// const jSend = require('../lib/jsend');
 
 /** ROUTES */
 const admin = require('../src/routes/admin-routes.js');
@@ -15,6 +16,7 @@ const driver = require('../src/routes/driver-routes.js');
 const entity = require('../src/routes/entity-routes.js');
 const vehicle = require('../src/routes/vehicle-routes.js');
 
+dotenv.config();
 
 const MongoDB = `${process.env.CARRYMEDB}`;
 
@@ -46,9 +48,9 @@ app.use('/driver', driver);
 app.use('/entity', entity);
 app.use('/vehicle', vehicle);
 
-
 const server = app.listen(config.app.port, () => {
   console.log(`${config.app.name} Server is running`);
 });
+
 
 module.exports = server;
