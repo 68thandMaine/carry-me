@@ -1,7 +1,7 @@
 module.exports = () => ({
   app: {
     name: process.env.APP_NAME,
-    port: process.env.APP_PORT || 3000,
+    port: process.env.PORT || 3000,
     environment: process.env.APPLICATION_ENV,
     logpath: process.env.LOG_PATH,
   },

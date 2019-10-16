@@ -1,9 +1,7 @@
-export default function formatJSend (req, res, body) {
-  
+function formatJSend (req, res, body) {  
   /**
    * If the status code is failing then return a custom error message object without
    * the code data information.
-   * 
    * If the status code is not failing and the application is in development then
    * return a custom error object with the failing code stack trace.
    */
@@ -51,3 +49,5 @@ export default function formatJSend (req, res, body) {
 
   return response;
 }
+
+module.exports = formatJSend;
