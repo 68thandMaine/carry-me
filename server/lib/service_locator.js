@@ -18,7 +18,7 @@ ServiceLocator.prototype.register = function (dependencyName, constructor) {
 };
 
 ServiceLocator.prototype.get = function (dependencyName) {
-  if (!dependencyName) {
+    if (!dependencyName) {
     throw new Error(dependencyName + ': Attempting to retrieve unknown dependency.');
   }
 

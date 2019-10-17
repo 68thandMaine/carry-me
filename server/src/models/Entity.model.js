@@ -65,6 +65,8 @@ const EntitySchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'Message',
   },
+
+  // Can remove for timestamp: true
   createdAt: {
     type: Date,
     required: true,
