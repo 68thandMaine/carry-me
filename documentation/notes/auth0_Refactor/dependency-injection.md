@@ -21,4 +21,4 @@ There are a series of dependencies that are added to the dependency map.
 
 These are run through the service locaer file to determine if the dependency is real. If is valid then it returns the necesssary dependencyies. **Is This A Security Feature To Know About?**
 
-[Next we create the database config file(./databaseConfig.md)
+[Next we create the database config file](./databaseConfig.md)
