@@ -18,17 +18,18 @@ ServiceLocator.prototype.register = function (dependencyName, constructor) {
 };
 
 ServiceLocator.prototype.get = function (dependencyName) {
-    if (!dependencyName) {
+  if (!dependencyName) {
     throw new Error(dependencyName + ': Attempting to retrieve unknown dependency.');
   }
-
+  
   if (typeof this.dependencyMap[dependencyName] === undefined) {
     throw new Error(dependencyName + ': Dependency constructor is not a function.');
   }
-
+  
   if (this.dependencyCache[dependencyName] === undefined) {
     const dependencyConstructor = this.dependencyMap[dependencyName];
     const dependency = dependencyConstructor(this);
+    
 
     if (dependency) {
       this.dependencyCache[dependencyName] = dependency;

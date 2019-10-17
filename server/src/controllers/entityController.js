@@ -1,5 +1,5 @@
 const Entity = require('../models/Entity.model');
-
+const serviceLocator = require('../../lib/service_locator');
 
 class EntityController {
   constructor(log, entityService, httpStatus) {
@@ -8,6 +8,16 @@ class EntityController {
     this.httpStatus = httpStatus;
   }
 
+  async index(req, res) {
+    try {
+      const result = await this.entityService.listAllEntities();
+      res.send(result);
+    } catch (err) {
+      this.log.error(err._message);
+      res.send(err);
+    }
+  }
+  
   async create(req, res) {
     try {
       const { body } = req;
@@ -45,7 +55,7 @@ class EntityController {
     try {
       const { id } = req.params;
       const { body } = req;
-      const updatedEntity = await this.entityService.update(id, body);
+      const updatedEntity = await this.entityService.updateEntity(id, body);
       res.send(updatedEntity);
     } catch (err) {
       this.log.error(err._message);

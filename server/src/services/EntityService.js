@@ -1,21 +1,24 @@
 class EntityService {
-  constructor(log, mongoose, httpStatus, errs) {
+  constructor(log, mongoose, httpStatus) {
     this.log = log;
     this.mongoose = mongoose;
     this.httpStatus = httpStatus;
-    this.errs = errs;
+  }
+  
+  async listAllEntities() {
+    const Entity = this.mongoose.model('Entity');
+    const entities = await Entity.find();
+    this.log.info('All entities returned');
+    return entities;
   }
 
   async createEntity(body) {
     const Entity = this.mongoose.model('Entity');
     const { entityName } = body;
     const entity = await Entity.findOne({ entityName });
-
+    
     if (entity) {
-      const err = new this.errs.InvalidArgumentError(
-        'Entity with this entityname already exisits.',
-      );
-      return err;
+      return 'Entity with this entityname already exisits.';
     }
 
     let newEntity = new Entity(body);
@@ -29,8 +32,8 @@ class EntityService {
     const entity = await Entity.findOne({ _id: entityId });
 
     if (!entity) {
-      const err = new this.errs.NotFoundError(`Entity with id - ${entityId} does not exist.`);
-      return err;
+      this.log.error(`Entity with id: ${entityId} was not found.`);
+      return `Entity with id - ${entityId} does not exist in the database.`;
     }
 
     this.log.info('Entity fetched successfully.');
@@ -40,12 +43,11 @@ class EntityService {
   async deleteEntity(entityId) {
     const Entity = this.mongoose.model('Entity');
     const entity = await Entity.deleteOne({ _id: entityId });
-
     if (!entity) {
-      const err = new this.errs.NotFoundError(`Entity with id ${entityId} does not exist.`);
-      return err;
+      return `Entity with id ${entityId} does not exist.`;
     }
-    this.log.info('Entity deleted successfullly');
+    entity.message = 'Entity deleted successfully.';
+    this.log.info('Entity deleted successfully.');
     return entity;
   }
 
@@ -57,10 +59,12 @@ class EntityService {
     });
 
     if(!entity) {
-      const err = new this.errs.NotFoundError(`Entity with id ${id} could not be updated.`);
-      return err;
+      return `Entity with id ${id} could not be updated.`;
+      
     }
     this.log.info('Entity successfully updated');
     return entity;
   }
 }
+
+module.exports = EntityService;

@@ -2,14 +2,17 @@ const serviceLocator = require('../lib/service_locator');
 const logger = serviceLocator.get('logger');
 
 class Database {
-  constructor(port, host, name) {
+  constructor(host, name) {
     this.mongoose = serviceLocator.get('mongoose');
-    this._connect(port, host, name);
+    this._connect(host, name);
   }
 
-  _connect(port, host, name) {
+  _connect(host, name) {
     this.mongoose.Promise = global.Promise;
-    this.mongoose.connect(`mongodb://${host}:${port}/${name}`);
+    this.mongoose.connect(`mongodb://${host}/${name}`, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
     const { connection }  = this.mongoose;
     connection.on('connected', () => logger.info('Database connection was successful.'));
     connection.on('error', (err) => logger.error('Database Connection Failed: ' + err));
