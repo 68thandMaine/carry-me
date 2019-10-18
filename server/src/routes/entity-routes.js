@@ -1,4 +1,5 @@
 const Router = require('express').Router();
+const auth0 = require('../../lib/auth0');
 
 // const entityController = require('../controllers/entityController.js');
 

@@ -18,7 +18,7 @@ class Database {
     connection.on('error', (err) => logger.error('Database Connection Failed: ' + err));
     connection.on('disconnected', () => logger.info('Database Connection Disconnected.'));
     process.on('SIGINT', () => {
-      conneection.close();
+      connection.close();
       logger.info('Database Connection closed due to NodeJs process termination.');
       process.exit(0);
     });

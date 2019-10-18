@@ -5910,3 +5910,528 @@
   level: 'info',
   label: 'Carry-Me API',
   timestamp: '2019-10-17T05:46:31.439Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:37.255Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:38.485Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:39.720Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:39.985Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:40.234Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:40.282Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:41.530Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:46.130Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:49.787Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:50.367Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:52.012Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:52.161Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:52.192Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:52.259Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:52.328Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:52.345Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:52.426Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:52.442Z' }
+{ message: 'Entity deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:52.455Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:52.472Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:52.524Z' }
+{ message: 'Entity successfully updated',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:52.683Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T05:50:52.720Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T07:18:45.250Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T07:18:47.062Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T07:18:48.398Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T07:18:48.883Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T07:18:50.170Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T07:18:50.221Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T07:18:51.085Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T07:18:51.140Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T07:19:16.229Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T07:19:17.706Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-17T07:19:28.244Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T03:47:42.483Z' }
+{ message:
+   'Database Connection closed due to NodeJs process termination.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T03:47:45.185Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T03:48:00.427Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T03:48:23.116Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T03:53:30.716Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T03:53:47.837Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:08:53.051Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:08:53.264Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:09:18.368Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:09:22.222Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:09:33.343Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:09:34.135Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:09:35.965Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:09:38.054Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:09:38.719Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:09:39.933Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:09:40.031Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:28.521Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:40.707Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:40.954Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:41.004Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:41.035Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:41.053Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:41.062Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:41.090Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:41.098Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:46.097Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:51.103Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:51.746Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:51.987Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:52.083Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:52.159Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:53.281Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:54.270Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:55.618Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:56.029Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:56.891Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:11:57.064Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:14:22.402Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:14:57.849Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:16:51.451Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:17:08.968Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:23:50.988Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:23:53.465Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:23:57.538Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:24:48.510Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:27:15.884Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:27:16.042Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:27:43.700Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:27:52.174Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:28:10.768Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:32:34.176Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:32:53.308Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:36:12.043Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:36:15.369Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:36:19.546Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:37:18.265Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:37:32.349Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:37:37.829Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:39:06.984Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:39:13.608Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:41:05.086Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:41:05.523Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:41:06.479Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:41:08.396Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:41:09.805Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:41:10.036Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:41:10.835Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:41:12.251Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:41:12.955Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:41:13.227Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:17.870Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:33.032Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:42.319Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:42.512Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:42.560Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:42.586Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:42.600Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:42.607Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:42.622Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:42.631Z' }
+{ message: 'Entity deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:42.638Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:42.646Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:42.662Z' }
+{ message: 'Entity successfully updated',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:42.684Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:42.700Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:43.551Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:44.393Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:45.365Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:45.565Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:45.733Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:45.776Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:46.740Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:47.184Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:47.911Z' }
+{ message: 'Database Connection Disconnected.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:42:47.949Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:46:32.174Z' }

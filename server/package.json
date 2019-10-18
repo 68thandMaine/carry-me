@@ -26,8 +26,11 @@
     "cors": "^2.8.4",
     "dotenv": "^7.0.0",
     "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "express-jwt-authz": "^2.3.1",
     "express-winston": "^4.0.1",
     "http-status": "^1.4.0",
+    "jwks-rsa": "^1.6.0",
     "mongoose": "^5.7.3",
     "morgan": "^1.9.1",
     "winston": "^3.2.1"
