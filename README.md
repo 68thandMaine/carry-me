@@ -30,18 +30,26 @@ ___
 
 ## III. Backend
 
+|||
+|---|---|
+| [Classes](#classes) | [Refactors](#refactors) |
+| [Features](#features) | |
+
 ### Classes
 
 |||
 |---|---|
 | [Entity](./documentation/Entity.md)| [Contract](./documentation/Contract.md) |
 | [Driver](./documentation/Driver.md)| [Vehicle](./documentation/Vehicle.md) |
+| [Admin](./documentation/Admin.md) | |
 
-#### To do:
+### Refactors
 
-- Look into authentication from the backend
+- [More Organized Modular Express Components](./documentation/refactors/oop-in-carryme.md);
 
-- Add logger
+### Features
+
+- [Integrating Auth0 to the Backend](./documentation/Auth0.md)
 
 ___
 
@@ -83,6 +91,7 @@ This project was built with:
 - SCSS
 - Node
 - Express
+- Auth0
 - Axios
 
 ___

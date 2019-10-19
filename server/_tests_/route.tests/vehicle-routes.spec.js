@@ -1,8 +1,7 @@
 const mongoose = require('mongoose');
 const supertest = require('supertest');
 const app = require('../app');
-// const Contract = require('../../src/models/Contract.model');
-// const Entity = require('../../src/models/Entity.model');
+
 const Vehicle = require('../../src/models/Vehicle.model');
 const mockEntity = require('../mock-data/mock-entity');
 const mockVehicles = require('../mock-data/mock-vehicles');
