@@ -22,12 +22,13 @@ describe('Entity Endpoints', () => {
     done();
   });
   afterAll(async (done) => {
+    await Entity.deleteMany();
     await mongoose.connection.close();
     done();
   });
 
   it('POST / Should save an Entity to the database', async (done) => {
-    const res = await request.post('/entity/')
+    const res = await request.post('/entity')
       .send(mockEntity[0])
       .set('Accept', 'application/json');
     expect(res.status).toBe(200);
@@ -76,9 +77,9 @@ describe('Entity Endpoints', () => {
     const entity = await request.get(`/entity/${entityID}`);
     const deleteUser = await request.delete(`/entity/${entity.body._id}`);
     expect(deleteUser.statusCode).toBe(200);
-    expect(deleteUser.text).toEqual('Deleted successfully');
+    expect(deleteUser.body.message).toEqual('Entity deleted successfully.');
     const notFound = await request.get(`/entity/${entityID}`);
-    expect(notFound.text).toEqual('Resource not found');
+    expect(notFound.text).toEqual(`Entity with id - ${entityID} does not exist in the database.`);
     done();
   });
   it('PUT /:id should update an entity', async (done) => {

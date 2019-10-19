@@ -1,10 +1,14 @@
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const dotenv = require('dotenv');
+
 const express = require('express');
 const morgan = require('morgan');
-const mongoose = require('mongoose');
 
+const config = require('../config/config')();
+// const jSend = require('../lib/jsend');
+const serviceLocator = require('../config/depInj');
+const logger = serviceLocator.get('logger');
 
 /** ROUTES */
 const admin = require('../src/routes/admin-routes.js');
@@ -15,21 +19,27 @@ const vehicle = require('../src/routes/vehicle-routes.js');
 
 dotenv.config();
 
-const MongoDB =  `${process.env.CARRYMEDB}`;
+const Database = require('../config/database');
+new Database(config.mongo.host, config.mongo.name);
 
-mongoose.connect(MongoDB, {
-  useNewUrlParser: true, 
-  useUnifiedTopology: true,
-});
 
-mongoose.set('useFindAndModify', false);
 
-const db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', () => {
+
+// const MongoDB = `${process.env.CARRYMEDB}`;
+
+// mongoose.connect(MongoDB, {
+//   useNewUrlParser: true, 
+//   useUnifiedTopology: true,
+// });
+
+// mongoose.set('useFindAndModify', false);
+
+// const db = mongoose.connection;
+// db.on('error', console.error.bind(console, 'connection error:'));
+// db.once('open', () => {
   // console.log('mongoose up');
   // we're connected!
-});
+// });
 
 const app = express();
 
@@ -42,12 +52,12 @@ app.use(cors());
 app.use('/admin', admin);
 app.use('/contract', contract);
 app.use('/driver', driver);
-app.use('/entity', entity);
 app.use('/vehicle', vehicle);
+entity.register(app, serviceLocator);
 
-app.get('/', (req, res) => {
-  res.send('Carry-Me Server');
+const server = app.listen(config.app.port, () => {
+  console.log(`${config.app.name} Server is running`);
 });
 
-const server = app.listen(process.env.PORT);
+
 module.exports = server;
