@@ -14,7 +14,7 @@ const mockEntities = require('../mock-data/mock-entity');
 const request = supertest(app);
 const service = require('../services/compare');
 
-describe('Admin Endpoints', () => {
+describe.skip('Admin Endpoints', () => {
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/admin';
     await mongoose.connect(url, {

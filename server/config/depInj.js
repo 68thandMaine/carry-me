@@ -13,6 +13,14 @@ serviceLocator.register('mongoose', () => {
 
 // Service Files
 
+serviceLocator.register('driverService', (serviceLocator) => {
+  const log = serviceLocator.get('logger');
+  const mongoose = serviceLocator.get('mongoose');
+  const httpStatus = serviceLocator.get('httpStatus');
+  const DriverService = require('../src/services/DriverService');
+  return new DriverService(log, mongoose, httpStatus);
+});
+
 serviceLocator.register('entityService', (serviceLocator) => {
   const log = serviceLocator.get('logger');
   const mongoose = serviceLocator.get('mongoose');
@@ -21,16 +29,14 @@ serviceLocator.register('entityService', (serviceLocator) => {
   return new EntityService(log, mongoose, httpStatus);
 });
 
-
-
 // Controllers
 
 serviceLocator.register('driverController', (serviceLocator) => {
   const log = serviceLocator.get('logger');
   const httpStatus = serviceLocator.get('httpStatus');
   const driverService = serviceLocator.get('driverService');
-  const DriverController = require('../src/controllers/driverController');
-  return new DriverController(log, driverService, httpStatus);
+  // const DriverController = require('../src/controllers/driverController');
+  // return new DriverController(log, driverService, httpStatus);
 })
 
 serviceLocator.register('entityController', (serviceLocator) => {
