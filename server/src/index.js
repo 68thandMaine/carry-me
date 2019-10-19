@@ -52,7 +52,6 @@ app.use(cors());
 app.use('/admin', admin);
 app.use('/contract', contract);
 app.use('/driver', driver);
-// app.use('/entity', entity);
 app.use('/vehicle', vehicle);
 entity.register(app, serviceLocator);
 

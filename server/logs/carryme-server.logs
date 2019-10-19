@@ -6435,3 +6435,39 @@
   level: 'info',
   label: 'Carry-Me API',
   timestamp: '2019-10-18T04:46:32.174Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:49:49.271Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:49:57.584Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:50:25.980Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:50:38.450Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:53:56.083Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:54:09.456Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:54:33.434Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-18T04:54:40.869Z' }
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-19T20:49:42.384Z' }
