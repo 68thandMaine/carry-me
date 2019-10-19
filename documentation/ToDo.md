@@ -3,14 +3,15 @@
 **Backend Tasks**
 | Task | Complete |
 | --- | --- |
-| Add authentication on the backend | [ ] |
+| Show Mike how to set up a .env file | [ ] |
 | Create a tested vehicle class and corresponding routes | [ ] |
 | Update Contract model for bid history property | [ ] |
 | Create property for holding pictures of a vehcile | [ ] |
 | Write model tests | [ ] |
 | Refactor Test files | [ ]|
-| Discuss what features a driver should have | [ ] |
-| Discuss what features an entity should have | [ ] |
+| Discuss what features a driver should have | [X] |
+| Discuss what features an entity should have | [X] |
+| Add authentication on the backend | [ X] |
 
 I need to understand write about MongoDB and Mongoose schemas in detail.
  
