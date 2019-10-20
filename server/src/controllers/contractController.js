@@ -1,15 +1,33 @@
-const Contract = require('../models/Contract.model');
+class ContractController {
+  constructor(log, contractService, httpStatus) {
+    this.log = log;
+    this.contractService = contractService;
+    this.httpStauts = httpStatus;
+  }
 
-exports.index = async (req, res) => {
-  await Contract.find().exec((err, contracts) => {
-    if (err) {
-      res.send("This doesn't exist");
-    } else {
-      res.send(contracts);
+  async index(req, res) {
+    try {
+      const result = await this.contractService.listAllContracts();
+      res.send(result)
+    } catch (err) {
+      this.log.error('There was an issue returning all contracts from the database.');
+      res.send(err._message);
     }
-  });
-};
+  }
+}
 
+module.exports = ContractController;
+
+// exports.index = async (req, res) => {
+//   await Contract.find().exec((err, contracts) => {
+//     if (err) {
+//       res.send("This doesn't exist");
+//     } else {
+//       res.send(contracts);
+//     }
+//   });
+// };
+/** 
 exports.create = async (req, res) => {
   const newContract = new Contract(req.body);
   await newContract.save().then((data) => {
@@ -58,3 +76,5 @@ exports.delete = async (req, res) => {
     }
   });
 };
+
+*/

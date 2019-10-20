@@ -101,6 +101,14 @@ class DriverController {
       res.send(err._message);
     }
   }
+
+  /** MUST WAIT UNTIL CONTRACTS HAVE BEEN REFACTORED */
+  // async showContracts(req, res) {
+  //   const { driverId } = req.params;
+  //   try {
+
+  //   }
+  // }
 }
 
 module.exports = DriverController;

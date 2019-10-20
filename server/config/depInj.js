@@ -13,6 +13,14 @@ serviceLocator.register('mongoose', () => {
 
 // Service Files
 
+serviceLocator.register('contractService', (serviceLocator) => {
+  const log = serviceLocator.get('logger');
+  const mongoose = serviceLocator.get('mongoose');
+  const httpStatus = serviceLocator.get('httpStatus');
+  const DriverService = require('../src/services/DriverService');
+  return new DriverService(log, mongoose, httpStatus);
+});
+
 serviceLocator.register('driverService', (serviceLocator) => {
   const log = serviceLocator.get('logger');
   const mongoose = serviceLocator.get('mongoose');
@@ -31,13 +39,21 @@ serviceLocator.register('entityService', (serviceLocator) => {
 
 // Controllers
 
+serviceLocator.register('contractController', (serviceLocator) => {
+  const log = serviceLocator.get('logger');
+  const httpStatus = serviceLocator.get('httpStatus');
+  const contractService = serviceLocator.get('contractService');
+  const ContractController = require('../src/controllers/contractController');
+  return new ContractController(log, contractService, httpStatus);  
+})
+
 serviceLocator.register('driverController', (serviceLocator) => {
   const log = serviceLocator.get('logger');
   const httpStatus = serviceLocator.get('httpStatus');
   const driverService = serviceLocator.get('driverService');
   const DriverController = require('../src/controllers/driverController');
   return new DriverController(log, driverService, httpStatus);
-})
+});
 
 serviceLocator.register('entityController', (serviceLocator) => {
   const log = serviceLocator.get('logger');

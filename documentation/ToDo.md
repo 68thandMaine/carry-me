@@ -4,6 +4,7 @@
 | Task | Complete |
 | --- | --- |
 | Show Mike how to set up a .env file | [ ] |
+| Write driver search for contracts logic and test | [ ] |
 | Create Custom Functions for logging all important error information | [ ] |
 | Update Contract model for bid history property | [ ] |
 | Write model tests | [ ] |

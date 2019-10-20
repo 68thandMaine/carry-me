@@ -12,7 +12,7 @@ const mockDrivers = require('../mock-data/mock-driver');
 
 describe.skip('DriverService', () => {
   beforeAll(async (done) => {
-    const url = 'mongodb://localhost/admin';
+    const url = 'mongodb://localhost/driver';
     await mongoose.connect(url, {
       useNewUrlParser: true,
       useUnifiedTopology: true,

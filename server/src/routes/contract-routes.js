@@ -7,4 +7,6 @@ Router.get('/:entityId/:contractId', contractController.showOneContract);
 Router.put('/:entityId/:contractId', contractController.update);
 Router.delete('/:entityId/:contractId', contractController.delete);
 
-module.exports = Router;
+module.exports.register = (server, serviceLocator) => {
+  
+};
