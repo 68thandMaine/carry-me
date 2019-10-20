@@ -14,9 +14,9 @@ Router.delete('/contract/:contractId', contractController.delete);
 // Router.get('/entity/:id', entityController.show);
 // Router.put('/entity/:id', entityController.update);
 // Router.delete('/entity/:id', entityController.delete);
-Router.get('/driver', driverController.index);
-Router.get('/driver/:driverId', driverController.show);
-Router.put('/driver/:driverId', driverController.update);
-Router.delete('/driver/:driverId', driverController.delete);
+// Router.get('/driver', driverController.index);
+// Router.get('/driver/:driverId', driverController.show);
+// Router.put('/driver/:driverId', driverController.update);
+// Router.delete('/driver/:driverId', driverController.delete);
 
 module.exports = Router;

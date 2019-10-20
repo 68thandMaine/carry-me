@@ -4,13 +4,14 @@
 | Task | Complete |
 | --- | --- |
 | Show Mike how to set up a .env file | [ ] |
-| Create a tested vehicle class and corresponding routes | [ ] |
+| Create Custom Functions for logging all important error information | [ ] |
 | Update Contract model for bid history property | [ ] |
 | Write model tests | [ ] |
 | Refactor Test files | [ ]|
+| Create a tested vehicle class and corresponding routes | [X] |
 | Discuss what features a driver should have | [X] |
 | Discuss what features an entity should have | [X] |
-| Add authentication on the backend | [ X] |
+| Add authentication on the backend | [X] |
 
 I need to understand write about MongoDB and Mongoose schemas in detail.
  

@@ -8,10 +8,10 @@ const Contract = require('../../src/models/Contract.model');
 const Driver = require('../../src/models/Driver.model');
 const mockContracts = require('../mock-data/mock-contracts.js');
 const mockEntities = require('../mock-data/mock-entity.js');
-const mockDriver = require('../mock-data/mock-driver.js');
-const service = require('../services/compare');
+const mockDrivers = require('../mock-data/mock-driver.js');
 
-describe.skip('Driver endpoints', () => {
+
+describe('Driver endpoints', () => {
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/driver';
     await mongoose.connect(url, {
@@ -26,44 +26,73 @@ describe.skip('Driver endpoints', () => {
     done();
   });
   afterAll(async (done) => {
-    // await Contract.deleteMany();
-    // await Driver.deleteMany();
+    await Contract.deleteMany();
+    await Driver.deleteMany();
     await mongoose.connection.close();
     done();
   });
-  
-  it('POST /driver will create a new driver in the database', async (done) => {
-    const newDriver = await request.post('/driver/')
-    .send(mockDriver[0])
-    .set('Accept', 'application/json');
-    const driver = newDriver.body;
-    expect(newDriver.status).toBe(200);
-    service.compareObjects(mockDriver[0], driver);
-    done();
-  });
-  it('GET /driver/:driverId will return one driver from the database', async (done) => {
-    const driver = await Driver.insertMany(mockDriver[0]);
-    const driverID = driver[0]._id;
-    const getDriver = await request.get(`/driver/${driverID}`);
-    expect(getDriver.status).toBe(200);
-    service.compareObjects(mockDriver[0], getDriver.body);
-    done();
-  });
-  it('GET /driver/:driverId/contracts will return all contracts related to a driver', async (done) =>{
-    await Contract.insertMany(mockContracts);
-    const driver = await Driver.insertMany(mockDriver[1]);
-    const driverID = driver[0]._id.toString();
-    const foundContracts = await request.get(`/driver/${driverID}/contracts`);
-    // There are only two mock-contracts with a driverID
-    expect(foundContracts.body.length).toBe(2);
-    foundContracts.body.forEach((contract) => {
-      expect(contract.driver).toBe(driverID);
+  describe('GET methods', () => {
+    it('GET /driver will return an empty array if no drivers exist in the database', async (done) => {
+      const res = await request.get('/driver');
+      expect(res.status).toBe(200);
+      expect(res.body).toStrictEqual([]);
+      done();
     });
-    done();
+    it('GET /driver will return all drivers in the database', async (done) => {
+      await Driver.insertMany(mockDrivers);
+      const res = await request.get('/driver');
+      expect(res.status).toBe(200);
+      expect(res.body.length).toBe(mockDrivers.length);
+      done();
+    });
+    it('GET /driver/:driverId will return 200 if a user is in the database.', async (done) => {
+      const driver = await Driver.insertMany(mockDrivers[0]);
+      const driverID = driver[0]._id;
+      const getDriver = await request.get(`/driver/${driverID}`);
+      expect(getDriver.body._id).toEqual(driverID.toString())
+      expect(getDriver.status).toBe(200);
+      done();
+    });
+    it('GET /driver/:driverId will return 400 if a user is not in the database', async (done) => {
+      const driverID = mockDrivers[1]._id;
+      const getDriver = await request.get(`/driver/${driverID}`);
+      expect(getDriver.status).toBe(400);
+      expect(getDriver.text).toEqual('The driver was not found in the database.');
+      done();
+    });
+    // it.only('GET /driver/:driverId/contracts will return all contracts related to a driver', async (done) =>{
+    //   await Contract.insertMany(mockContracts);
+    //   const driver = await Driver.insertMany(mockDrivers[1]);
+    //   const driverID = driver[0]._id.toString();
+    //   const foundContracts = await request.get(`/driver/${driverID}/contracts`);
+    //   // There are only two mock-contracts with a driverID
+    //   expect(foundContracts.body.length).toBe(2);
+    //   foundContracts.body.forEach((contract) => {
+    //     expect(contract.driver).toBe(driverID);
+    //   });
+    //   done();
+    // });
   });
+
+  describe('POST method', () => {
+    it('POST /driver will return 200 if a driver is created', async (done) => {
+      const newDriver = await request.post('/driver')
+        .send(mockDrivers[0])
+        .set('Accept', 'application/json');
+      expect(newDriver.status).toBe(200);
+      done();
+    });
+    it('POST /driver will return 400 if invalid entry.', async (done) => {
+      const newDriver = await request.post('/driver');
+      expect(newDriver.status).toBe(400);
+      expect(newDriver.body).toStrictEqual({});
+      done();
+    });
+  });
+  
   it('GET /driver/:driverId/:contractId will return one contract related to a driver', async (done) => {
     await Contract.insertMany(mockContracts);
-    const driver = await Driver.insertMany(mockDriver);
+    const driver = await Driver.insertMany(mockDrivers);
     const driver1_ID = driver[0]._id.toString();
     const driver2_ID = driver[1]._id.toString();
     const foundContracts = await request.get(`/driver/${driver2_ID}/contracts`);
@@ -74,33 +103,43 @@ describe.skip('Driver endpoints', () => {
     expect(contract.status).toBe(200);
     done();
   });
-  it('PUT /driver/:diverId will update driver information in the database', async (done) => {
-    let driverID = null;
-    const driver = await Driver.insertMany(mockDriver[0]);
-    driverID = driver[0]._id.toString();
-    const getDriver = await request.put(`/driver/${driverID}`)
-      .send(
-        { firstName: 'Dick' }
-      )
-      .set('Accept', 'application/json');
-    expect(getDriver.status).toBe(200);
-    expect(getDriver.body.firstName).not.toBe(driver[0].firstName);
-    expect(getDriver.body.firstName).toEqual('Dick');
-    expect(getDriver.body._id).toEqual(driverID);
-    done();
+  describe('DELETE method', () => {
+    it('DELETE /driver/:driverId will delete a driver from the database and return 200', async (done) => {
+      const allDrivers = await Driver.insertMany(mockDrivers);
+      const allDriversLength = allDrivers.length;
+      const driverId = allDrivers[0]._id.toString();
+      const deleted = await request.delete(`/driver/${driverId}`);
+      expect(deleted.status).toBe(200);
+      expect(deleted.body.deletedCount).toBe(1);
+      expect(deleted.body.message).toBe('Driver deleted successfully.');
+      const allDriversAfterDelete = await request.get('/driver');
+      expect(allDriversAfterDelete.status).toBe(200);
+      const allDriversAfterDeleteLength = allDriversAfterDelete.body.length;
+      expect(allDriversAfterDeleteLength).toBe(allDriversLength - 1);
+      done();
+    });
+    it('DELETE /driver/:driverId will return 400 and an error if unable to delete driver.', async (done) => {
+      await Driver.insertMany(mockDrivers[0]);
+      const deleted = await request.delete(`/driver/${mockDrivers[1]._id}`);
+      expect(deleted.status).toBe(400);
+      expect(deleted.text).toEqual('There was an error deleting this driver account.');
+      done();
+    });
   });
-  it('DELETE /driver/:driverId will delete a driver from the database', async (done) => {
-    let driverID = null;
-    const allDrivers = await Driver.insertMany(mockDriver);
-    const allDriversLength = allDrivers.length;
-    driverID = allDrivers[0]._id.toString();
-    const deleted = await request.delete(`/driver/${driverID}`);
-    expect(deleted.status).toBe(200);
-    expect(deleted.text).toBe('Successfully deleted driver.');
-    const allDriversAfterDelete = await request.get('/driver/');
-    expect(allDriversAfterDelete.status).toBe(200);
-    const allDriversAfterDeleteLength = allDriversAfterDelete.body.length;
-    expect(allDriversAfterDeleteLength).toBe(allDriversLength - 1);
-    done();
+  describe('PUT method', () => {
+    it('PUT /driver/:driverId will return 200 if successfully updated.', async (done) => {
+      await Driver.insertMany(mockDrivers[1]);
+      const updatedDriver = await request.put(`/driver/${mockDrivers[1]._id}`)
+        .send(mockDrivers[2]);
+      expect(updatedDriver.status).toBe(200);
+      expect(updatedDriver.body).not.toEqual(mockDrivers[1]);
+      done();
+    });
+    it('PUT /driver/:driverId will return 400 if unsuccessfully updated.', async (done) => {
+      const updatedDriver = await request.put(`/driver/${mockDrivers[1]._id}`);
+      expect(updatedDriver.status).toBe(400);
+      expect(updatedDriver.text).toStrictEqual('Driver could not be updated. Invalid ID.');
+      done();
+    });
   });
 });

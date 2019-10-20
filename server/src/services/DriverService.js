@@ -11,13 +11,13 @@ class DriverService {
     this.log.info(`${drivers.length} drivers returned from the database.`);
     return drivers;
   }
-  
+
   async createDriver(body) {
     const Driver = this.mongoose.model('Driver');
     const { email } = body;
     const driver = await Driver.findOne({ email });
     if (driver) {
-      return 'An account with the provided email already exists.'
+      return 'An account with the provided email already exists.';
     }
     let newDriver = new Driver(body);
     newDriver = await newDriver.save();
@@ -28,9 +28,9 @@ class DriverService {
   async getDriverById(driverId) {
     const Driver = this.mongoose.model('Driver');
     const driver = await Driver.findOne({ _id: driverId });
-    if(!driver) {
+    if (!driver) {
       this.log.error(`Driver with id - ${driverId} was not found in the database.`);
-      return 'The driver was not found in the database';
+      return 'The driver was not found in the database.';
     }
     this.log.info('Driver fetched successfully.');
     return driver;

@@ -52,14 +52,10 @@ app.use(cors());
 
 app.use('/admin', admin);
 app.use('/contract', contract);
-app.use('/driver', driver);
-// app.use('/entity', entity);
 app.use('/vehicle', vehicle);
+
+// Service Locator Design Pattern Stuff
+driver.register(app, serviceLocator);
 entity.register(app, serviceLocator);
-
-// const server = app.listen(config.app.port, () => {
-//   console.log(`${config.app.name} Server is running`);
-// });
-
 
 module.exports = app;

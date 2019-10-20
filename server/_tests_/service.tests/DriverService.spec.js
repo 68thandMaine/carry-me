@@ -10,7 +10,7 @@ const { compareObjects } = testServices;
 const Driver = require('../../src/models/Driver.model');
 const mockDrivers = require('../mock-data/mock-driver');
 
-describe('DriverService', () => {
+describe.skip('DriverService', () => {
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/admin';
     await mongoose.connect(url, {
