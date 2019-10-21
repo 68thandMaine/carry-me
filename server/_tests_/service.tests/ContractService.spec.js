@@ -120,6 +120,17 @@ describe('ContractService', () => {
     });
   });
   describe('Driver contract functionality', () => {
-    it('');
+    it('driverUpdateContract() will update a contract in the database.', async (done) => {
+      const driver = mockDrivers[1];
+      const driverId = driver._id;
+      const contractId = mockContracts[1]._id;
+      const updates = {
+        driver: driverId,
+        current_bid: 300,
+      };
+      const updatedContract = await ContractService.updatedContract({ contractId, updates });
+      console.log(updatedContract);
+      done();
+    });
   });
 });
