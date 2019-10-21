@@ -7,7 +7,7 @@ const Entity = require('../../src/models/Entity.model');
 const mockContracts = require('../mock-data/mock-contracts.js');
 const mockEntities = require('../mock-data/mock-entity.js');
 
-const request = supertest(app);
+// const request = supertest(app);
 
 
 describe.skip('Contract Endpoints', () => {

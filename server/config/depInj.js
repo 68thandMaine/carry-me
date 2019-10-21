@@ -17,8 +17,8 @@ serviceLocator.register('contractService', (serviceLocator) => {
   const log = serviceLocator.get('logger');
   const mongoose = serviceLocator.get('mongoose');
   const httpStatus = serviceLocator.get('httpStatus');
-  const DriverService = require('../src/services/DriverService');
-  return new DriverService(log, mongoose, httpStatus);
+  const ContractService = require('../src/services/ContractService');
+  return new ContractService(log, mongoose, httpStatus);
 });
 
 serviceLocator.register('driverService', (serviceLocator) => {
@@ -44,8 +44,8 @@ serviceLocator.register('contractController', (serviceLocator) => {
   const httpStatus = serviceLocator.get('httpStatus');
   const contractService = serviceLocator.get('contractService');
   const ContractController = require('../src/controllers/contractController');
-  return new ContractController(log, contractService, httpStatus);  
-})
+  return new ContractController(log, contractService, httpStatus);
+});
 
 serviceLocator.register('driverController', (serviceLocator) => {
   const log = serviceLocator.get('logger');

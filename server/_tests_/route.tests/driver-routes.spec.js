@@ -11,7 +11,7 @@ const mockEntities = require('../mock-data/mock-entity.js');
 const mockDrivers = require('../mock-data/mock-driver.js');
 
 
-describe('Driver endpoints', () => {
+describe.skip('Driver endpoints', () => {
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/driver';
     await mongoose.connect(url, {
@@ -32,7 +32,7 @@ describe('Driver endpoints', () => {
     done();
   });
   describe('GET methods', () => {
-    it('GET /driver will return an empty array if no drivers exist in the database', async (done) => {
+    it('GET /driver will return 200 and an empty array if no drivers exist in the database', async (done) => {
       const res = await request.get('/driver');
       expect(res.status).toBe(200);
       expect(res.body).toStrictEqual([]);
@@ -60,7 +60,7 @@ describe('Driver endpoints', () => {
       expect(getDriver.text).toEqual('The driver was not found in the database.');
       done();
     });
-    // it.only('GET /driver/:driverId/contracts will return all contracts related to a driver', async (done) =>{
+    // it('GET /driver/:driverId/contracts will return all contracts related to a driver', async (done) =>{
     //   await Contract.insertMany(mockContracts);
     //   const driver = await Driver.insertMany(mockDrivers[1]);
     //   const driverID = driver[0]._id.toString();

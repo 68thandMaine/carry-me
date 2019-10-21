@@ -14,6 +14,19 @@ class ContractController {
       res.send(err._message);
     }
   }
+
+  async create(req, res) {
+    const { entityId } = req.params;
+    const { body } = req.body;
+    try {
+      const result = await this.contractService.createNewContract(body);
+      this.log.info(`Contract for ${body.entityName} created.`)
+      res.send(result);
+    } catch (err) {
+      this.log.error(`There was an error creating a contract for ${body.entityName} - ${err._message}`);
+      res.send(err._message);
+    } 
+  }
 }
 
 module.exports = ContractController;
@@ -27,6 +40,7 @@ module.exports = ContractController;
 //     }
 //   });
 // };
+
 /** 
 exports.create = async (req, res) => {
   const newContract = new Contract(req.body);

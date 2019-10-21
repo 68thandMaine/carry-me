@@ -38,7 +38,7 @@ const ContractSchema = new Schema({
   },
   winning_Driver: {
     type: Schema.Types.ObjectId,
-    ref: 'Driver'
+    ref: 'Driver',
   },
   location_start: {
     type: String,

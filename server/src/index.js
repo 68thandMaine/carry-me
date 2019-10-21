@@ -51,8 +51,8 @@ app.use(cors());
 
 app.use('/admin', admin);
 app.use('/contract', contract);
-app.use('/driver', driver);
 app.use('/vehicle', vehicle);
+driver.register(app, serviceLocator);
 entity.register(app, serviceLocator);
 
 const server = app.listen(config.app.port, () => {

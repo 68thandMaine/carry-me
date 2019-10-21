@@ -51,10 +51,11 @@ app.use(cors());
 
 
 app.use('/admin', admin);
-app.use('/contract', contract);
+
 app.use('/vehicle', vehicle);
 
 // Service Locator Design Pattern Stuff
+contract.register(app, serviceLocator);
 driver.register(app, serviceLocator);
 entity.register(app, serviceLocator);
 
