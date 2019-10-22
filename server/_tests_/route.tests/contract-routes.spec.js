@@ -2,21 +2,30 @@ const mongoose = require('mongoose');
 const supertest = require('supertest');
 const app = require('../app');
 
+const request = supertest(app);
+
 const Contract = require('../../src/models/Contract.model');
 const Entity = require('../../src/models/Entity.model');
+const Driver = require('../../src/models/Driver.model');
 const mockContracts = require('../mock-data/mock-contracts.js');
 const mockEntities = require('../mock-data/mock-entity.js');
+const mockDrivers = require('../mock-data/mock-driver.js');
 
-// const request = supertest(app);
+const services = require('../services/database-actions/create-types');
+const { createEntity } = services;
 
 
-describe.skip('Contract Endpoints', () => {
+describe('Contract Endpoints', () => {
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/contract';
     await mongoose.connect(url, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
+    done();
+  });
+  beforeEach(async (done) => {
+    // await Contract.insertMany(mockContracts);
     done();
   });
   afterEach(async (done) => {
@@ -32,51 +41,92 @@ describe.skip('Contract Endpoints', () => {
   });
   describe('GET methods', () => {
     it('GET /:entityId/contract will return 200 and an empty array if if no contracts exist.', async (done) => {
-
+      const entityId = mockEntities[2]._id;
+      const res = await request.get(`/${entityId}/contract`);
+      expect(res.status).toBe(200);
+      expect(res.body).toStrictEqual([]);
       done();
     });
     it('GET /:entityId/contract will return 200 and all contracts belonging to it.', async (done) => {
-
+      const entityId = mockEntities[0]._id;
+      const res = await request.get(`/${entityId}/contract`);
+      expect(res.status).toBe(200);
+      expect(res.body.length).toBeGreaterThan(1);
+      for (let i = 0; i < res.body.length; i += 1) {
+        expect(res.body[i].entity).toBe(entityId);
+      }
       done();
     });
     it('GET /:entityId/:contractId will return 400 if the entityId is invalid.', async (done) => {
-      
+      const entityId = mockEntities[1]._id;
+      const res = await request.get(`/${entityId}/contract`);
+      expect(res.status).toBe(400);
       done();
     });
     it('GET /:entityId/:contractId will return 400 if the contractId is invalid.', async (done) => {
-
+      const entityId = mockEntities[0]._id;
+      const contractId = mockContracts[1]._id;
+      const res = await request.get(`/${entityId}/${contractId}`);
+      expect(res.status).toBe(400);
       done();
     });
     it('GET /:entityId/:contractId will retrun 200 and the correct contract.', async (done) => {
-
+      const entityId = mockEntities[0]._id;
+      const contractId = mockContracts[2]._id;
+      const res = await request.get(`/${entityId}/${contractId}`);
+      const { body } = res;
+      expect(res.status).toBe(200);
+      expect(body.entity).toBe(entityId);
+      expect(body._id).toBe(contractId);
       done();
     });
 
     describe('POST method', () => {
-      it('POST /:entityId/contract will return 400 if entityId is invalid.', () => {
-
+      it('POST /:entityId/contract will return 400 if entityId is invalid.', async (done) => {
+        const entityId = mockEntities[1]._id;
+        const contract = mockContracts[0];
+        const res = await request.post(`/${entityId}/contract`)
+          .send(contract);
+        expect(res.status).toBe(400);
         done();
       });
-      it('POST /:entityId/contract will return 400 if data is invalid.', async (done) => {       
+      it('POST /:entityId/contract will return 400 if data is invalid.', async (done) => {     
+        const entityId = mockEntities[0]._id;
+        const contract = mockDrivers[1];
+        const res = await request.post(`/${entityId}/contract`)
+          .send(contract);
+        expect(res.status).toBe(400);
         done();
       });
       it('POST /:entityId/contract will return 200 when new contract is successfully created.', async (done) => {
-
+        const entity = await createEntity(mockEntities[1], request);
+        const entityId = entity._id;
+        const contract = mockContracts[0];
+        const res = await request.post(`/${entityId}/contract`)
+          .send(contract);
+        expect(res.status).toBe(200);
         done();
       });
     });
 
     describe('PUT method', () => {
       it('PUT /:entityId/:contractId will return 400 if the entityId is invalid.', async (done) => {
-
+        const entityId = mockEntities[1]._id;
+        const contractId = mockContracts[2]._id;
+        const res = await request.put(`/${entityId}/${contractId}`);
+        expect(res.status).toBe(400);
         done();
       });
-      it('PUT /:entityId/:contractId will return 400 if the contractId is invalid.', async (done) => {
-
+      it.only('PUT /:entityId/:contractId will return 400 if the contractId is invalid.', async (done) => {
+        const entityId = mockEntities[0]._id;
+        const contractId = mockContracts[1]._id;
+        const res = await request.put(`/${entityId}/${contractId}`);
+        expect(res.status).toBe(400);
         done();
       });
       it('PUT /:entityId/:contractId will return 200 if successfully updated.', async (done) => {
 
+        done();
       });
     });
 

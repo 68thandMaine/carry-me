@@ -15,7 +15,7 @@ const correctEntry = {
   zip: 22030,
   contracts:[ ],
 };
-const incorrectEntry = {
+const noId = {
   password: 'vallygurl14',
   entityName: 'Anderson Valley Group',
   createdAt: '2019-10-05',
@@ -47,5 +47,5 @@ const entry1 = {
   zip: 22030,
   // contracts:  // Contract for no driver no vehicles
 };
-module.exports = [correctEntry, incorrectEntry, entry1];
+module.exports = [correctEntry, noId, entry1];
 

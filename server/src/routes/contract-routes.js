@@ -8,6 +8,8 @@
 // Router.delete('/:entityId/:contractId', contractController.delete);
 
 module.exports.register = (server, serviceLocator) => {
-  server.post('/:entityId/contract', (req, res, next) => serviceLocator.post('contractController').create(req, res, next));
-  server.get('/:entityId/contract', (req, res, next) => serviceLocator.get('contractController').showEntityContracts(req, res, next));
+  server.post('/:entityId/contract', (req, res, next) => serviceLocator.get('contractController').create(req, res, next));
+  server.get('/:entityId/contract', (req, res, next) => serviceLocator.get('contractController').index_EntityContracts(req, res, next));
+  server.get('/:entityId/:contractId', (req, res, next) => serviceLocator.get('contractController').show(req, res, next));
+  server.put('/:entityId/:contractId', (req, res, next) => serviceLocator.get('contractController').update(req,res, next));
 };

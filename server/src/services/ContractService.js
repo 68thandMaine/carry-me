@@ -39,7 +39,7 @@ class ContractService {
     return contract;
   }
   
-  async entityUpdateContract(contractId, updates) {
+  async updateContract(contractId, updates) {
     const Contract = this.mongoose.model('Contract');
     const contract = await Contract.findByIdAndUpdate(contractId, updates, {
       new: true,
@@ -52,6 +52,7 @@ class ContractService {
     this.log.info(`Contract - ${contractId} was successfully updated with ${updates}`);
     return contract;
   }
+
 
   async deleteContract(contractId) {
     const Contract = this.mongoose.model('Contract');

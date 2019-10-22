@@ -17,15 +17,53 @@ class ContractController {
 
   async create(req, res) {
     const { entityId } = req.params;
-    const { body } = req.body;
+    let { body } = req;
     try {
-      const result = await this.contractService.createNewContract(body);
+      const result = await this.contractService.createNewContract(entityId, body);
       this.log.info(`Contract for ${body.entityName} created.`)
       res.send(result);
     } catch (err) {
       this.log.error(`There was an error creating a contract for ${body.entityName} - ${err._message}`);
-      res.send(err._message);
+      res.status(400).send(err._message);
     } 
+  }
+
+  async index_EntityContracts(req, res) {
+    const { entityId } = req.params;
+    try {
+      const contracts = await this.contractService.showEntityContracts(entityId);
+      this.log.info(`${contracts.length} contracts returned for entity ${entityId}.`);
+      res.send(contracts);
+    } catch (err) {
+      this.log.error(`Error retreiving contracts for entity: ${entityId}. ${err.message}`);
+      res.status(400).send(err);
+    }
+  }
+
+  async show(req, res) {
+    const { contractId } = req.params;
+    try {
+      const contract = await this.contractService.showOneEntityContract(contractId);
+      this.log.info(`Contract with id - ${contractId} was returned.`);
+      res.send(contract);
+    } catch (err) {
+      this.log.error(`There was an error finding contract with id - ${contractId} becasue ${err.message}.`);
+      res.status(400).send(err);
+    }
+  }
+
+  async update(req, res) {
+    const { contractId } = req.params;
+    const { body } = req;
+    try {
+      const contract = await this.contractService.updateContract(contractId, body);
+      console.log(contract)
+      this.log.info(`Contract with id - ${contractId} updated.`);
+      res.send(contract);
+    } catch (err) {
+      this.log.error(`Error updatting contract with id - ${contractId} because: ${err.message}`);
+      res.status(400).send(err);
+    }
   }
 }
 

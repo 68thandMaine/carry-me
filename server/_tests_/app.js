@@ -20,11 +20,8 @@ const vehicle = require('../src/routes/vehicle-routes.js');
 
 dotenv.config();
 
-const Database = require('../config/database');
-new Database(config.mongo.host, config.mongo.name);
-
-
-
+// const Database = require('../config/database');
+// new Database(config.mongo.host, config.mongo.name);
 
 // const MongoDB = `${process.env.CARRYMEDB}`;
 

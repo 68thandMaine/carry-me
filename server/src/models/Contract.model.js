@@ -19,10 +19,6 @@ const ContractSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'Driver',
   },
-  createdAt: {
-    type: Date,
-    required: true,
-  },
   vehicles: {
     type: Array,
   },
@@ -49,11 +45,16 @@ const ContractSchema = new Schema({
     required: true,
   },
   shipBy: {
-    type: Date,
+    type: String,
     required: true,
   },
   contractClosed: {
     type: Boolean,
+  },
+},
+{
+  timeStamps: {
+    createdAt: 'created_at',
   },
 });
 
