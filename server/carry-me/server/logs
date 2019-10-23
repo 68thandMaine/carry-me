@@ -7,3 +7,463 @@
   level: 'info',
   label: 'Carry-Me API',
   timestamp: '2019-10-22T23:31:58.953Z' }
+{ message:
+   'Error retreiving contracts for entity: undefined. Cast to ObjectId failed for value "undefined" at path "entity" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:10:12.358Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:10:44.624Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:11:44.188Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:12:11.218Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:16:31.279Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:19:42.986Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:20:16.204Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:20:45.986Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:21:24.584Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:21:30.468Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:22:11.216Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:22:37.912Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:23:04.758Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:23:15.848Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:23:33.705Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:23:44.469Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:23:57.694Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:24:37.161Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:25:55.257Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:26:17.549Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:26:38.540Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:26:50.618Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:27:13.758Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:28:10.472Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:28:24.671Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:28:41.058Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:28:59.444Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:29:08.058Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:29:18.404Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:29:32.689Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:29:44.719Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:30:30.468Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:30:41.618Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:31:18.423Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:31:24.597Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:31:35.245Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:31:48.823Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:32:02.402Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:32:39.544Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:32:58.709Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:33:22.395Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:33:27.416Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:33:44.601Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:37:56.465Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:37:56.466Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:38:26.156Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:38:26.157Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Entity is not defined.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:48:28.340Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Entity is not defined.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:54:44.954Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Entity is not defined.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:56:42.738Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Entity is not defined.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:56:51.794Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Entity is not defined.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:57:05.108Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Entity is not defined.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:59:01.740Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Entity is not defined.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:59:16.748Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Entity is not defined.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T00:59:35.992Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Entity is not defined.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:44:58.853Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Entity is not defined.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:45:14.965Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Entity is not defined.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:45:54.561Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Entity is not defined.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:46:14.509Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Entity is not defined.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:46:36.567Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Entity is not defined.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:49:28.397Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:49:56.675Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:52:01.480Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:52:27.142Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:52:43.146Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:53:30.308Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:53:42.356Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:53:52.992Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:54:55.179Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:55:23.572Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:55:35.928Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:55:42.349Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:55:54.200Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:56:03.184Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:56:22.169Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:56:31.399Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:56:52.754Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:57:02.552Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:57:07.899Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:57:19.748Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:57:46.005Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:58:02.256Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:58:24.111Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:58:51.690Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:59:15.362Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:59:15.393Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:59:15.415Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T04:59:40.572Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:00:46.700Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:00:57.148Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:01:27.351Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:01:27.352Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:09:38.465Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:09:38.466Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:09:48.380Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:09:48.381Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:09:54.068Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:09:54.069Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:10:00.599Z' }
+{ message: '3 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:10:00.628Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:10:00.655Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:10:00.703Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:10:00.730Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T05:10:00.730Z' }

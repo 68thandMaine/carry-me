@@ -41,9 +41,9 @@ class ContractController {
   }
 
   async show(req, res) {
-    const { contractId } = req.params;
+    const { contractId, entityId } = req.params;
     try {
-      const contract = await this.contractService.showOneEntityContract(contractId);
+      const contract = await this.contractService.showOneEntityContract(entityId, contractId);
       this.log.info(`Contract with id - ${contractId} was returned.`);
       res.send(contract);
     } catch (err) {

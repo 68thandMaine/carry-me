@@ -7,16 +7,25 @@ const Entity = require('../../src/models/Entity.model');
 const mockContracts = require('../mock-data/mock-contracts.js');
 const mockEntities = require('../mock-data/mock-entity.js');
 
-// const request = supertest(app);
+const databaseActions = require('../services/database-actions/create-types');
+const services = require('../services/compare');
+const { comparePropertiesAndValues } = services;
+const { createEntity } = databaseActions;
+
+const request = supertest(app);
 
 
-describe.skip('Contract Endpoints', () => {
+describe('Contract Endpoints', () => {
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/contract';
     await mongoose.connect(url, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
+    done();
+  });
+  beforeEach(async (done) => {
+    await Contract.insertMany(mockContracts);
     done();
   });
   afterEach(async (done) => {
@@ -32,23 +41,44 @@ describe.skip('Contract Endpoints', () => {
   });
   describe('GET methods', () => {
     it('GET /:entityId/contract will return 200 and an empty array if if no contracts exist.', async (done) => {
-
+      const entityId = mockEntities[2]._id;
+      const res = await request.get(`/${entityId}/contract`);
+      expect(res.status).toBe(200);
+      expect(res.body).toStrictEqual([]);
       done();
     });
     it('GET /:entityId/contract will return 200 and all contracts belonging to it.', async (done) => {
-
+      const entityId = mockEntities[0]._id;
+      const res = await request.get(`/${entityId}/contract`);
+      const { body } = res;
+      expect(res.status).toBe(200);
+      expect(body.length).toBeGreaterThan(1);
+      body.forEach((contract) => {
+        expect(contract.entity.toString()).toBe(entityId); 
+      });
       done();
     });
     it('GET /:entityId/:contractId will return 400 if the entityId is invalid.', async (done) => {
-      
+      const entityId = mockEntities[1]._id;
+      const contractId = mockContracts[2]._id;
+      const res = await request.get(`/${entityId}/${contractId}`);
+      expect(res.status).toBe(400);
       done();
     });
     it('GET /:entityId/:contractId will return 400 if the contractId is invalid.', async (done) => {
-
+      const entityId = mockEntities[0]._id;
+      const contractId = mockContracts[0]._id;
+      const res = await request.get(`/${entityId}/${contractId}`);
+      expect(res.status).toBe(400);
       done();
     });
     it('GET /:entityId/:contractId will retrun 200 and the correct contract.', async (done) => {
-
+      const entityId = mockEntities[0]._id;
+      const contractId = mockContracts[2]._id;
+      const res = await request.get(`/${entityId}/${contractId}`);
+      expect(res.status).toBe(200);
+      expect(res.body.entity).toBe(entityId);
+      expect(res.body._id.toString()).toBe(contractId);
       done();
     });
 

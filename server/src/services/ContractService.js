@@ -20,6 +20,7 @@ class ContractService {
 
   async showEntityContracts(entityId) {
     const Contract = this.mongoose.model('Contract');
+    const Entity = this.mongoose.model('Entity');
     const contracts = await Contract.find({ entity: entityId });
     if (!contracts) {
       this.log.error(`There was an error finding contracts for entityId: - ${entityId}`);
@@ -28,8 +29,10 @@ class ContractService {
     return contracts;
   }
 
-  async showOneEntityContract(contractId) {
+  async showOneEntityContract(entityId, contractId) {
     const Contract = this.mongoose.model('Contract');
+    const Entity = this.mongoose.model('Entity');
+    const entity = await Entity.findOne({ _id: entityId });
     const contract = await Contract.findOne({ _id: contractId });
     if (!contract) {
       this.log.error('The contractId was not found in the database.');
@@ -38,7 +41,7 @@ class ContractService {
     this.log.info(`Contract with id - ${contract._id} was found.`);
     return contract;
   }
-  
+
   async updateContract(contractId, updates) {
     const Contract = this.mongoose.model('Contract');
     const contract = await Contract.findByIdAndUpdate(contractId, updates, {
