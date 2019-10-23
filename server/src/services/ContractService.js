@@ -20,7 +20,6 @@ class ContractService {
 
   async showEntityContracts(entityId) {
     const Contract = this.mongoose.model('Contract');
-    const Entity = this.mongoose.model('Entity');
     const contracts = await Contract.find({ entity: entityId });
     if (!contracts) {
       this.log.error(`There was an error finding contracts for entityId: - ${entityId}`);

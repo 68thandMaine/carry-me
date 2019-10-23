@@ -20,10 +20,10 @@ class ContractController {
     let { body } = req;
     try {
       const result = await this.contractService.createNewContract(entityId, body);
-      this.log.info(`Contract for ${body.entityName} created.`)
+      this.log.info(`Contract ${result._id} created for entity ${entityId}.`);
       res.send(result);
     } catch (err) {
-      this.log.error(`There was an error creating a contract for ${body.entityName} - ${err._message}`);
+      this.log.error(`There was an error creating a contract for ${body.entityName} - ${err.message}`);
       res.status(400).send(err._message);
     } 
   }
@@ -57,7 +57,6 @@ class ContractController {
     const { body } = req;
     try {
       const contract = await this.contractService.updateContract(contractId, body);
-      console.log(contract)
       this.log.info(`Contract with id - ${contractId} updated.`);
       res.send(contract);
     } catch (err) {

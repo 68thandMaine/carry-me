@@ -3,13 +3,13 @@
 **Backend Tasks**
 | Task | Complete |
 | --- | --- |
-| Show Mike how to set up a .env file | [ ] |
 | Decide how to add ids to contracts. Frontend or backend? | [ ] |
 | Write driver search for contracts logic and test | [ ] |
 | Create Custom Functions for logging all important error information | [ ] |
 | Update Contract model for bid history property | [ ] |
 | Write model tests | [ ] |
 | Refactor Test files | [ ]|
+| Show Mike how to set up a .env file | [X] |
 | Create a tested vehicle class and corresponding routes | [X] |
 | Discuss what features a driver should have | [X] |
 | Discuss what features an entity should have | [X] |

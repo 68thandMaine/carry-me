@@ -83,15 +83,29 @@ describe('Contract Endpoints', () => {
     });
 
     describe('POST method', () => {
-      it('POST /:entityId/contract will return 400 if entityId is invalid.', () => {
-
+      it('POST /:entityId/contract will return 400 if entityId is invalid.', async (done) => {
+        const entityId = mockEntities[1]._id;
+        const contract = mockContracts[0];
+        const res = await request.post(`/${entityId}/contract`)
+          .send(contract);
+        expect(res.status).toBe(400);
         done();
       });
       it('POST /:entityId/contract will return 400 if data is invalid.', async (done) => {       
+        const entityId = mockEntities[0]._id;
+        const contract = null;
+        const res = await request.post(`/${entityId}/contract`).send(contract);
+        expect(res.status).toBe(400);
         done();
       });
       it('POST /:entityId/contract will return 200 when new contract is successfully created.', async (done) => {
-
+        const entity = await createEntity(mockEntities[1], request);
+        const entityId = entity._id;
+        const contract = mockContracts[0];
+        const res = await request.post(`/${entityId}/contract`)
+          .send(contract);
+        expect(res.status).toBe(200);
+        expect(res.body.entity).toBe(entityId);
         done();
       });
     });
