@@ -677,3 +677,385 @@
   level: 'info',
   label: 'Carry-Me API',
   timestamp: '2019-10-23T05:25:20.999Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:10:24.019Z' }
+{ message: '4 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:10:24.047Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:10:24.115Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:10:24.141Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:10:24.175Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:10:24.175Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: entity: Cast to ObjectID failed for value "undefined" at path "entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:10:24.211Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: shipBy: Path `shipBy` is required., location_end: Path `location_end` is required., location_start: Path `location_start` is required., max_bid: Path `max_bid` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:10:24.231Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:10:24.258Z' }
+{ message: 'Contract created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:10:24.266Z' }
+{ message:
+   'Contract 5dafeed0048e350c68e611dd created for entity 5dafeed0048e350c68e611dc.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:10:24.266Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:12:43.474Z' }
+{ message: '4 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:12:43.504Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:12:43.538Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:12:43.562Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:12:43.585Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:12:43.585Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: entity: Cast to ObjectID failed for value "undefined" at path "entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:12:43.614Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: shipBy: Path `shipBy` is required., location_end: Path `location_end` is required., location_start: Path `location_start` is required., max_bid: Path `max_bid` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:12:43.635Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:12:43.661Z' }
+{ message: 'Contract created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:12:43.670Z' }
+{ message:
+   'Contract 5dafef5bcfa7d50c6878d268 created for entity 5dafef5bcfa7d50c6878d267.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:12:43.670Z' }
+{ message:
+   'Contract - 5d96cc3750ffe5bac5346dff was successfully updated with [object Object]',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:13:17.734Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:13:17.735Z' }
+{ message:
+   'Contract - 5d96cc3750ffe5bac5346dff was successfully updated with [object Object]',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:13:32.137Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:13:32.138Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:14:28.088Z' }
+{ message:
+   'Contract - 5d96cc3750ffe5bac5346dff was successfully updated with [object Object]',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:15:09.202Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:15:09.203Z' }
+{ message:
+   'Contract - 5d96cc3750ffe5bac5346dff was successfully updated with [object Object]',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:15:44.932Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:15:44.932Z' }
+{ message:
+   'Contract - 5d96cc3750ffe5bac5346dff was successfully updated with [object Object]',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:16:02.626Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:16:02.627Z' }
+{ message:
+   'Contract - 5d96cc3750ffe5bac5346dff was successfully updated with [object Object]',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:17:57.958Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:17:57.959Z' }
+{ message:
+   'Contract - 5d96cc3750ffe5bac5346dff was successfully updated with [object Object]',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:18:22.539Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:18:22.540Z' }
+{ message:
+   'Contract - 5d96cc3750ffe5bac5346dff was successfully updated with [object Object]',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:18:29.438Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:18:29.439Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:19:54.039Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:20:37.410Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:25:00.395Z' }
+{ message: '4 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:25:00.426Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:25:00.448Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:25:00.468Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:25:00.497Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:25:00.497Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: entity: Cast to ObjectID failed for value "undefined" at path "entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:25:00.560Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: shipBy: Path `shipBy` is required., location_end: Path `location_end` is required., location_start: Path `location_start` is required., max_bid: Path `max_bid` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:25:00.584Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:25:00.619Z' }
+{ message: 'Contract created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:25:00.628Z' }
+{ message:
+   'Contract 5daff23c202bb20c68036459 created for entity 5daff23c202bb20c68036458.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:25:00.628Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:25:00.650Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:25:28.510Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:25:40.178Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:27:26.888Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:27:43.821Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:28:20.420Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:29:03.993Z' }
+{ message: '4 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:29:04.038Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:29:04.081Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:29:04.110Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:29:04.152Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:29:04.153Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: entity: Cast to ObjectID failed for value "undefined" at path "entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:29:04.188Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: shipBy: Path `shipBy` is required., location_end: Path `location_end` is required., location_start: Path `location_start` is required., max_bid: Path `max_bid` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:29:04.214Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:29:04.255Z' }
+{ message: 'Contract created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:29:04.267Z' }
+{ message:
+   'Contract 5daff33034aca60c68fbac57 created for entity 5daff33034aca60c68fbac56.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:29:04.267Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:29:04.289Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:29:27.671Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:30:27.030Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:30:43.371Z' }
+{ message: '4 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:30:43.407Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:30:43.440Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:30:43.460Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:30:43.480Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:30:43.480Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: entity: Cast to ObjectID failed for value "undefined" at path "entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:30:43.509Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: shipBy: Path `shipBy` is required., location_end: Path `location_end` is required., location_start: Path `location_start` is required., max_bid: Path `max_bid` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:30:43.535Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:30:43.564Z' }
+{ message: 'Contract created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:30:43.571Z' }
+{ message:
+   'Contract 5daff393d1bc310c681476a0 created for entity 5daff393d1bc310c6814769f.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:30:43.572Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:30:43.602Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:30:43.624Z' }

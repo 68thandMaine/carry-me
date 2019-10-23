@@ -51,7 +51,6 @@ class ContractService {
       this.log.error(`There was an error updating contract - ${contractId} with updates: ${updates}`);
       return 'There was an error finding a contract with the given Id.';
     }
-    this.log.info(`Contract - ${contractId} was successfully updated with ${updates}`);
     return contract;
   }
 

@@ -30,7 +30,7 @@ const noId = {
   city: 'Oak City',
   accountOwner_PhoneType: 'work',
 };
-const entry1 = {
+const entity1 = {
   _id: '5d96cc3750ffe5bac5246dfd',
   entityName: 'Jackson Maxson Laxin',
   email: 'jsLaxin@gmail.com',
@@ -47,5 +47,5 @@ const entry1 = {
   zip: 22030,
   // contracts:  // Contract for no driver no vehicles
 };
-module.exports = [correctEntry, noId, entry1];
+module.exports = [correctEntry, noId, entity1];
 

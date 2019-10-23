@@ -111,16 +111,27 @@ describe('Contract Endpoints', () => {
     });
 
     describe('PUT method', () => {
-      it('PUT /:entityId/:contractId will return 400 if the entityId is invalid.', async (done) => {
-
-        done();
-      });
       it('PUT /:entityId/:contractId will return 400 if the contractId is invalid.', async (done) => {
-
+        const entityId = mockEntities[0]._id;
+        const contractId = mockContracts[1]._id;
+        const res = await request.put(`/${entityId}/${contractId}`).send({
+          location_end: 'Fairfax, VA',
+        });
+        expect(res.body.message).toContain('Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"');
+        expect(res.status).toBe(400);
         done();
       });
       it('PUT /:entityId/:contractId will return 200 if successfully updated.', async (done) => {
-
+        const entityId = mockEntities[0]._id;
+        const contractId = mockContracts[2]._id;
+        const res = await request.put(`/${entityId}/${contractId}`).send({
+          location_end: 'Fairfax, VA',
+        });
+        expect(res.status).toBe(200);
+        expect(res.body.entity).toBe(entityId);
+        expect(res.body._id).toBe(contractId);
+        expect(res.body.location_end).toBe('Fairfax, VA');
+        done();
       });
     });
 
