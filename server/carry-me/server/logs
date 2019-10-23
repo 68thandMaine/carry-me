@@ -1,0 +1,9 @@
+{ message: 'Database connection was successful.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-22T23:31:52.057Z' }
+{ message:
+   'Database Connection closed due to NodeJs process termination.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-22T23:31:58.953Z' }
