@@ -6,12 +6,9 @@ const Contract = require('../../src/models/Contract.model');
 const Entity = require('../../src/models/Entity.model');
 const mockContracts = require('../mock-data/mock-contracts.js');
 const mockEntities = require('../mock-data/mock-entity.js');
-
 const databaseActions = require('../services/database-actions/create-types');
-const services = require('../services/compare');
-const { comparePropertiesAndValues } = services;
-const { createEntity } = databaseActions;
 
+const { createEntity } = databaseActions;
 const request = supertest(app);
 
 
@@ -137,15 +134,27 @@ describe('Contract Endpoints', () => {
 
     describe('DELETE method', () => {
       it('DELETE /:entityId/:contractId will return 400 if the entityId is invalid.', async (done) => {
-
+        const entityId = mockEntities[1]._id;
+        const contractId = mockContracts[2]._id;
+        const res = await request.delete(`/${entityId}/${contractId}`);
+        expect(res.body.message).toContain('Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"');
+        expect(res.status).toBe(400);
         done();
       });
       it('DELETE /:entityId/:contractId will return 400 if the contractId is invalid.', async (done) => {
-
+        const entityId = mockEntities[0]._id;
+        const contractId = mockContracts[0]._id;
+        const res = await request.delete(`/${entityId}/${contractId}`);
+        expect(res.body.message).toContain('Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"');
+        expect(res.status).toBe(400);
         done();
       });
       it('DELETE /:entityId/:contractId will return 200 if the contract is succesfully deleted.', async (done) => {
-
+        const entityId = mockEntities[0]._id;
+        const contractId = mockContracts[2]._id;
+        const res = await request.delete(`/${entityId}/${contractId}`);
+        expect(res.status).toBe(200);
+        expect(res.body.deletedCount).toBe(1);
         done();
       });
     });

@@ -55,8 +55,10 @@ class ContractService {
   }
 
 
-  async deleteContract(contractId) {
+  async deleteContract(entityId, contractId) {
     const Contract = this.mongoose.model('Contract');
+    const Entity = this.mongoose.model('Entity');
+    await Entity.findOne({ _id: entityId });
     const contract = await Contract.deleteOne({ _id: contractId });
     if (contract.deletedCount <= 0) {
       this.log.error(`Deletion failed: Contract with id - ${contractId} was not found in the database.`);

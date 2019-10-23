@@ -64,6 +64,18 @@ class ContractController {
       res.status(400).send(err);
     }
   }
+
+  async delete(req, res) {
+    const { entityId, contractId } = req.params;
+    try {
+      const deleted = await this.contractService.deleteContract(entityId, contractId);
+      this.log.info(`Entity with id - ${entityId} successfully deleted contract with id - ${contractId}`);
+      res.send(deleted);
+    } catch (err) {
+      this.log.error(`Error deleteting contract with id - ${contractId} for entity with id - ${entityId} because: ${err.message}`);
+      res.status(400).send(err);
+    }
+  }
 }
 
 module.exports = ContractController;

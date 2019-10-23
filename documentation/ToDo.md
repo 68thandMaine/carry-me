@@ -3,12 +3,13 @@
 **Backend Tasks**
 | Task | Complete |
 | --- | --- |
-| Decide how to add ids to contracts. Frontend or backend? | [ ] |
+| Write a function to verify entityId's and driverId's on contract routes | [ ] |
 | Write driver search for contracts logic and test | [ ] |
 | Create Custom Functions for logging all important error information | [ ] |
 | Update Contract model for bid history property | [ ] |
 | Write model tests | [ ] |
 | Refactor Test files | [ ]|
+| Decide how to add ids to contracts. Frontend or backend? | [X] |
 | Show Mike how to set up a .env file | [X] |
 | Create a tested vehicle class and corresponding routes | [X] |
 | Discuss what features a driver should have | [X] |
