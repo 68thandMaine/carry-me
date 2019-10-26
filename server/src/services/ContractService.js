@@ -41,13 +41,23 @@ class ContractService {
     return contract;
   }
 
+  async showDriverContracts(driverId) {
+    const Contract = this.mongoose.model('Contract');
+    const contracts = await Contract.find({ driver: driverId });
+    if(!contracts) {
+      this.log.error(`There was an error returning contracts for driver with id - ${driverId}`);
+      return 'There was an error finding contracts for this driver.';
+    }
+    return contracts;
+  }
+
   async updateContract(contractId, updates) {
     const Contract = this.mongoose.model('Contract');
     const contract = await Contract.findByIdAndUpdate(contractId, updates, {
       new: true,
       runValidator: true,
     });
-    if(!contract) {
+    if (!contract) {
       this.log.error(`There was an error updating contract - ${contractId} with updates: ${updates}`);
       return 'There was an error finding a contract with the given Id.';
     }

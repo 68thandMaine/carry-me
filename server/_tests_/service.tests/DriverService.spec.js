@@ -34,7 +34,7 @@ describe.skip('DriverService', () => {
   });
   describe('listAllDrivers()', () => {
     it('listAllDrivers will return all drivers in the database', async (done) => {
-      let drivers = await DriverService.listAllDrivers();
+      const drivers = await DriverService.listAllDrivers();
       expect(drivers.length).toBeGreaterThan(1);
       done();
     });
@@ -117,3 +117,17 @@ describe.skip('DriverService', () => {
     });
   });
 });
+
+
+/** SHOULD THESE BE CONTRACT SERVICE TESTS? */
+// describe('getContracts(id)', () => {
+//   it.only('If invalid Id then an error message is returned', async (done) => {
+//     const driver = mockDrivers[1]._id;
+//     const contracts = await DriverService.getContracts(driver);
+//     // console.log(contracts.length)
+//     done();
+//   });
+//   it('All returned contracts have the driverId passed into the function.', async (done) => {
+    
+//     done();
+//   });

@@ -51,8 +51,9 @@ serviceLocator.register('driverController', (serviceLocator) => {
   const log = serviceLocator.get('logger');
   const httpStatus = serviceLocator.get('httpStatus');
   const driverService = serviceLocator.get('driverService');
+  const contractService = serviceLocator.get('contractService');
   const DriverController = require('../src/controllers/driverController');
-  return new DriverController(log, driverService, httpStatus);
+  return new DriverController(log, driverService, contractService, httpStatus);
 });
 
 serviceLocator.register('entityController', (serviceLocator) => {

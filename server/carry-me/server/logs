@@ -1416,3 +1416,1172 @@
   level: 'info',
   label: 'Carry-Me API',
   timestamp: '2019-10-23T06:51:28.430Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.365Z' }
+{ message: '4 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.399Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.439Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.463Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.487Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.488Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: entity: Cast to ObjectID failed for value "undefined" at path "entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.529Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: shipBy: Path `shipBy` is required., location_end: Path `location_end` is required., location_start: Path `location_start` is required., max_bid: Path `max_bid` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.549Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.580Z' }
+{ message: 'Contract created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.588Z' }
+{ message:
+   'Contract 5daff8a6afc5f40c682cd78d created for entity 5daff8a6afc5f40c682cd78c.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.589Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.612Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.640Z' }
+{ message:
+   'Error deleteting contract with id - 5d96cc3750ffe5bac5346dff for entity with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.661Z' }
+{ message:
+   'Error deleteting contract with id - undefined for entity with id - 5d96cc3750ffe5bac5346dfd because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.690Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.721Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd successfully deleted contract with id - 5d96cc3750ffe5bac5346dff',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:52:22.721Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:28.091Z' }
+{ message: '4 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:28.248Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:28.367Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:28.415Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:28.490Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:28.490Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: entity: Cast to ObjectID failed for value "undefined" at path "entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:28.574Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: shipBy: Path `shipBy` is required., location_end: Path `location_end` is required., location_start: Path `location_start` is required., max_bid: Path `max_bid` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:28.778Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:28.890Z' }
+{ message: 'Contract created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:28.900Z' }
+{ message:
+   'Contract 5daff9d8fc3a2f0c68976337 created for entity 5daff9d8fc3a2f0c68976336.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:28.902Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:28.927Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:28.959Z' }
+{ message:
+   'Error deleteting contract with id - 5d96cc3750ffe5bac5346dff for entity with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:28.985Z' }
+{ message:
+   'Error deleteting contract with id - undefined for entity with id - 5d96cc3750ffe5bac5346dfd because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:29.145Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:29.179Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd successfully deleted contract with id - 5d96cc3750ffe5bac5346dff',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:57:29.179Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.508Z' }
+{ message: '4 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.538Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.563Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.582Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.602Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.602Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: entity: Cast to ObjectID failed for value "undefined" at path "entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.643Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: shipBy: Path `shipBy` is required., location_end: Path `location_end` is required., location_start: Path `location_start` is required., max_bid: Path `max_bid` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.664Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.690Z' }
+{ message: 'Contract created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.698Z' }
+{ message:
+   'Contract 5daffa0c48614b0c686c8c6a created for entity 5daffa0c48614b0c686c8c69.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.698Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.714Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.735Z' }
+{ message:
+   'Error deleteting contract with id - 5d96cc3750ffe5bac5346dff for entity with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.752Z' }
+{ message:
+   'Error deleteting contract with id - undefined for entity with id - 5d96cc3750ffe5bac5346dfd because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.771Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.791Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd successfully deleted contract with id - 5d96cc3750ffe5bac5346dff',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T06:58:20.791Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:13.809Z' }
+{ message: '4 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:13.922Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:13.973Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:14.013Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:14.041Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:14.042Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: entity: Cast to ObjectID failed for value "undefined" at path "entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:14.086Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: shipBy: Path `shipBy` is required., location_end: Path `location_end` is required., location_start: Path `location_start` is required., max_bid: Path `max_bid` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:14.113Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:14.301Z' }
+{ message: 'Contract created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:14.325Z' }
+{ message:
+   'Contract 5daffb32c0c0540c686c5852 created for entity 5daffb32c0c0540c686c5851.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:14.325Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:14.351Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:14.402Z' }
+{ message:
+   'Error deleteting contract with id - 5d96cc3750ffe5bac5346dff for entity with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:14.446Z' }
+{ message:
+   'Error deleteting contract with id - undefined for entity with id - 5d96cc3750ffe5bac5346dfd because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:14.526Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:14.702Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd successfully deleted contract with id - 5d96cc3750ffe5bac5346dff',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:03:14.702Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:05.830Z' }
+{ message: '4 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:05.860Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:05.880Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:05.900Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:05.926Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:05.926Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: entity: Cast to ObjectID failed for value "undefined" at path "entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:05.967Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: shipBy: Path `shipBy` is required., location_end: Path `location_end` is required., location_start: Path `location_start` is required., max_bid: Path `max_bid` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:05.991Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:06.016Z' }
+{ message: 'Contract created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:06.023Z' }
+{ message:
+   'Contract 5daffb66e207d70c684fa292 created for entity 5daffb66e207d70c684fa291.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:06.024Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:06.044Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:06.064Z' }
+{ message:
+   'Error deleteting contract with id - 5d96cc3750ffe5bac5346dff for entity with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:06.095Z' }
+{ message:
+   'Error deleteting contract with id - undefined for entity with id - 5d96cc3750ffe5bac5346dfd because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:06.161Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:06.196Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd successfully deleted contract with id - 5d96cc3750ffe5bac5346dff',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:04:06.197Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:14.395Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:14.416Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:14.455Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:14.477Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:14.498Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:14.513Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:14.527Z' }
+{ message:
+   'Driver could not be updated becasue id - undefined was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:14.548Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:14.566Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.558Z' }
+{ message: '4 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.652Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.683Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.704Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.728Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.729Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: entity: Cast to ObjectID failed for value "undefined" at path "entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.758Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: shipBy: Path `shipBy` is required., location_end: Path `location_end` is required., location_start: Path `location_start` is required., max_bid: Path `max_bid` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.776Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.804Z' }
+{ message: 'Contract created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.815Z' }
+{ message:
+   'Contract 5daffc5f87bc5e0c68c1efc8 created for entity 5daffc5f87bc5e0c68c1efc7.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.817Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.851Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.872Z' }
+{ message:
+   'Error deleteting contract with id - 5d96cc3750ffe5bac5346dff for entity with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.894Z' }
+{ message:
+   'Error deleteting contract with id - undefined for entity with id - 5d96cc3750ffe5bac5346dfd because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.921Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.948Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd successfully deleted contract with id - 5d96cc3750ffe5bac5346dff',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:15.948Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:21.848Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:21.878Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:21.928Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:21.946Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:21.970Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:21.986Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:22.000Z' }
+{ message:
+   'Driver could not be updated becasue id - undefined was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:22.131Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:22.150Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.275Z' }
+{ message: '4 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.308Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.408Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.446Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.472Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.473Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: entity: Cast to ObjectID failed for value "undefined" at path "entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.507Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: shipBy: Path `shipBy` is required., location_end: Path `location_end` is required., location_start: Path `location_start` is required., max_bid: Path `max_bid` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.527Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.557Z' }
+{ message: 'Contract created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.566Z' }
+{ message:
+   'Contract 5daffc67e772f00c68c5957b created for entity 5daffc67e772f00c68c5957a.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.567Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.588Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.609Z' }
+{ message:
+   'Error deleteting contract with id - 5d96cc3750ffe5bac5346dff for entity with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.635Z' }
+{ message:
+   'Error deleteting contract with id - undefined for entity with id - 5d96cc3750ffe5bac5346dfd because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.658Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.691Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd successfully deleted contract with id - 5d96cc3750ffe5bac5346dff',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:23.691Z' }
+{ message: '0 contracts returned for entity 5d96cc3750ffe5bac5246dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.290Z' }
+{ message: '4 contracts returned for entity 5d96cc3750ffe5bac5346dfd.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.321Z' }
+{ message:
+   'There was an error finding contract with id - 5d96cc3750ffe5bac5346dff becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.342Z' }
+{ message:
+   'There was an error finding contract with id - undefined becasue Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract".',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.361Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was found.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.382Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff was returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.382Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: entity: Cast to ObjectID failed for value "undefined" at path "entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.427Z' }
+{ message:
+   'There was an error creating a contract for undefined - Contract validation failed: shipBy: Path `shipBy` is required., location_end: Path `location_end` is required., location_start: Path `location_start` is required., max_bid: Path `max_bid` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.444Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.472Z' }
+{ message: 'Contract created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.479Z' }
+{ message:
+   'Contract 5daffc7679cfe20c68de3532 created for entity 5daffc7679cfe20c68de3531.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.479Z' }
+{ message:
+   'Error updatting contract with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.500Z' }
+{ message: 'Contract with id - 5d96cc3750ffe5bac5346dff updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.524Z' }
+{ message:
+   'Error deleteting contract with id - 5d96cc3750ffe5bac5346dff for entity with id - undefined because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.541Z' }
+{ message:
+   'Error deleteting contract with id - undefined for entity with id - 5d96cc3750ffe5bac5346dfd because: Cast to ObjectId failed for value "undefined" at path "_id" for model "Contract"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.559Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.583Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd successfully deleted contract with id - 5d96cc3750ffe5bac5346dff',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-23T07:08:38.584Z' }
+{ message: '0 contracts returned for entity 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-25T22:50:02.086Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:53:48.591Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:54:05.109Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:54:27.692Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:54:37.746Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:54:47.107Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:55:08.942Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:55:37.335Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:55:37.381Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:55:37.408Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:55:37.419Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:55:37.461Z' }
+{ message:
+   'Driver with id - 5db399895d36c626ea01f406 was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:55:37.595Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:55:37.610Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:55:37.626Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:55:37.656Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T00:55:37.666Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:05:08.333Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:05:36.178Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:05:49.977Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:06:06.438Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:06:16.159Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:07:16.135Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:07:43.318Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:07:55.889Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:12:32.015Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:12:57.118Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:13:22.555Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:13:22.564Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:13:53.794Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:13:53.808Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:14:44.426Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:14:56.352Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:15:08.003Z' }
+{ message:
+   'There was an error updating contract with id - 5d96cc3750ffe5bac5346dff for driver with id 5da39be0d4381609f9bc9c26 because this.contractService.updatedContact is not a function.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:15:08.010Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:15:23.844Z' }
+{ message:
+   'There was an error updating contract with id - 5d96cc3750ffe5bac5346dff for driver with id 5da39be0d4381609f9bc9c26 because this.contractService.updatedContract is not a function.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:15:23.852Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:15:37.580Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:15:37.595Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:15:49.547Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:15:49.558Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:16:52.451Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:16:52.486Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:17:23.718Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:17:23.738Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:17:37.661Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:17:37.674Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:04.701Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:04.738Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:04.757Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:04.767Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:04.792Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:04.829Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:04.839Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:04.868Z' }
+{ message:
+   'Driver with id - 5db39ecca7386c26eacb6822 was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:04.899Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:04.908Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:04.927Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:04.949Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:04.958Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:21.420Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:21.478Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:21.496Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:21.506Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:21.532Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:21.555Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:21.563Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:21.587Z' }
+{ message:
+   'Driver with id - 5db39edde1a98026eac93ca1 was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:21.618Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:21.627Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:21.641Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:21.663Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:21.673Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:46.580Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:46.618Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:46.649Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:46.659Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:46.683Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:46.706Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:46.715Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:46.744Z' }
+{ message:
+   'Driver with id - 5db39ef699ff4f26eacad63a was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:46.775Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:46.781Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:46.799Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:46.822Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:18:46.832Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:19:17.760Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:19:17.839Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:19:17.972Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:19:17.991Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:19:18.026Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:19:18.090Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:19:18.108Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:19:18.187Z' }
+{ message:
+   'Driver with id - 5db39f1643f51326ea136eea was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:19:18.269Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:19:18.283Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:19:18.307Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:19:18.385Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:19:18.421Z' }

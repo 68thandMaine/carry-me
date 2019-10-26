@@ -12,7 +12,7 @@ const { createEntity } = databaseActions;
 const request = supertest(app);
 
 
-describe('Contract Endpoints', () => {
+describe.skip('Contract Endpoints', () => {
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/contract';
     await mongoose.connect(url, {

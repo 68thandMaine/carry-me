@@ -119,4 +119,12 @@ describe.skip('ContractService', () => {
       done();
     });
   });
+  it('showDriverContracts() will show all contracts for for a driver.', async (done) => {
+    const driverId = mockDrivers[1]._id;
+    const contracts = await ContractService.showDriverContracts(driverId);
+    for (let i = 0; i < contracts.length; i += 1) {
+      expect(contracts[i].driver.toString()).toBe(driverId);
+    }
+    done();
+  });
 });

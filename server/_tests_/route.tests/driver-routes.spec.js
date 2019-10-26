@@ -11,7 +11,7 @@ const mockEntities = require('../mock-data/mock-entity.js');
 const mockDrivers = require('../mock-data/mock-driver.js');
 
 
-describe.skip('Driver endpoints', () => {
+describe('Driver endpoints', () => {
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/driver';
     await mongoose.connect(url, {
@@ -60,18 +60,29 @@ describe.skip('Driver endpoints', () => {
       expect(getDriver.text).toEqual('The driver was not found in the database.');
       done();
     });
-    // it('GET /driver/:driverId/contracts will return all contracts related to a driver', async (done) =>{
-    //   await Contract.insertMany(mockContracts);
-    //   const driver = await Driver.insertMany(mockDrivers[1]);
-    //   const driverID = driver[0]._id.toString();
-    //   const foundContracts = await request.get(`/driver/${driverID}/contracts`);
-    //   // There are only two mock-contracts with a driverID
-    //   expect(foundContracts.body.length).toBe(2);
-    //   foundContracts.body.forEach((contract) => {
-    //     expect(contract.driver).toBe(driverID);
-    //   });
-    //   done();
-    // });
+
+    it('GET /driver/:driverId/contract will return all contracts related to a driver', async (done) => {
+      await Contract.insertMany(mockContracts);
+      const driverId = mockDrivers[1]._id;
+      const foundContracts = await request.get(`/driver/${driverId}/contract/`);
+      // There are only two mock-contracts with a driverID
+      expect(foundContracts.body.length).toBe(2);
+      foundContracts.body.forEach((contract) => {
+        expect(contract.driver).toBe(driverId);
+      });
+      done();
+    });
+
+    it('GET /driver/:driverId/:contractId will return one contract related to a driver', async (done) => {
+      await Contract.insertMany(mockContracts);
+      const driverId = mockDrivers[1]._id;
+      const foundContracts = await request.get(`/driver/${driverId}/contract`);
+      const contractId = foundContracts.body[0]._id;
+      const contract = await request.get(`/driver/${driverId}/contract/${contractId}/`);
+      expect(contract.status).toBe(200);
+      expect(contract.body.driver.toString()).toBe(driverId);
+      done();
+    });
   });
 
   describe('POST method', () => {
@@ -90,19 +101,6 @@ describe.skip('Driver endpoints', () => {
     });
   });
   
-  it('GET /driver/:driverId/:contractId will return one contract related to a driver', async (done) => {
-    await Contract.insertMany(mockContracts);
-    const driver = await Driver.insertMany(mockDrivers);
-    const driver1_ID = driver[0]._id.toString();
-    const driver2_ID = driver[1]._id.toString();
-    const foundContracts = await request.get(`/driver/${driver2_ID}/contracts`);
-    const contractID = foundContracts.body[0]._id
-    const contract = await request.get(`/driver/${driver2_ID}/${contractID}`);
-    expect(contract.body.driver).toBe(driver2_ID);
-    expect(contract.body.driver).not.toBe(driver1_ID);
-    expect(contract.status).toBe(200);
-    done();
-  });
   describe('DELETE method', () => {
     it('DELETE /driver/:driverId will delete a driver from the database and return 200', async (done) => {
       const allDrivers = await Driver.insertMany(mockDrivers);

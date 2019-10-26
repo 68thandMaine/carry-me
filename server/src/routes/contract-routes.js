@@ -8,9 +8,9 @@
 // Router.delete('/:entityId/:contractId', contractController.delete);
 
 module.exports.register = (server, serviceLocator) => {
-  server.post('/:entityId/contract', (req, res, next) => serviceLocator.get('contractController').create(req, res, next));
-  server.get('/:entityId/contract', (req, res, next) => serviceLocator.get('contractController').index_EntityContracts(req, res, next));
-  server.get('/:entityId/:contractId', (req, res, next) => serviceLocator.get('contractController').show(req, res, next));
-  server.put('/:entityId/:contractId', (req, res, next) => serviceLocator.get('contractController').update(req,res, next));
-  server.delete('/:entityId/:contractId', (req, res, next) => serviceLocator.get('contractController').delete(req, res, next));
+  server.post('/entity/:entityId/contract', (req, res, next) => serviceLocator.get('contractController').create(req, res, next));
+  server.get('entity/:entityId/contract', (req, res, next) => serviceLocator.get('contractController').index_EntityContracts(req, res, next));
+  server.get('entity/:entityId/contract/:contractId', (req, res, next) => serviceLocator.get('contractController').show(req, res, next));
+  server.put('entity/:entityId/contract/:contractId', (req, res, next) => serviceLocator.get('contractController').update(req,res, next));
+  server.delete('entity/:entityId/contract/:contractId', (req, res, next) => serviceLocator.get('contractController').delete(req, res, next));
 };

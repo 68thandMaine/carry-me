@@ -54,7 +54,7 @@ class DriverService {
       new: true,
       runValidators: true,
     });
-    if(!updatedDriver) {
+    if (!updatedDriver) {
       this.log.error(`Driver could not be updated becasue id - ${driverId} was not found in the database.`);
       return 'Driver could not be updated. Invalid ID.';
     }

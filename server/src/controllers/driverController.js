@@ -1,36 +1,11 @@
 const Driver = require('../models/Driver.model');
 const Contract = require('../models/Contract.model');
 
-
-// exports.showContracts = async (req, res)=> {
-//   const contracts = await Contract.find({
-//     driver: req.params.driverId
-//   }).exec((err, contract) => {
-//     if (err) {
-//       res.send(err._message);
-//     } else {
-//       res.send(contract);
-//     }
-//   });
-// };
-
-// exports.showOneContract = async (req, res) => {
-//   await Contract.findOne({
-//     _id: req.params.contractId,
-//   }, (err, foundContract) => {
-//     if (err) {
-//       res.send(err._message);
-//     } else {
-//       res.send(foundContract);
-//     }
-//   });
-// };
-
-
 class DriverController {
-  constructor(log, driverService, httpStatus) {
+  constructor(log, driverService, contractService, httpStatus) {
     this.log = log;
     this.driverService = driverService;
+    this.contractService = contractService;
     this.httpStatus = httpStatus;
   }
 
@@ -73,7 +48,6 @@ class DriverController {
   async delete(req, res) {
     const { driverId } = req.params;
     try {
-      console.log('in try')
       const deleted = await this.driverService.deleteDriver(driverId);
       if (deleted.length > 0) {
         res.status(400).send(deleted);
@@ -82,7 +56,6 @@ class DriverController {
       }
       res.send(deleted);
     } catch (err) {
-      console.log('in catch', err)
       res.send(err._message);
     }
   }
@@ -102,13 +75,33 @@ class DriverController {
     }
   }
 
-  /** MUST WAIT UNTIL CONTRACTS HAVE BEEN REFACTORED */
-  // async showContracts(req, res) {
-  //   const { driverId } = req.params;
-  //   try {
+  async showContracts(req, res) {
+    const { driverId } = req.params;
+    try {
+      const contracts = await this.contractService.showDriverContracts(driverId);
+      this.log.info(`${contracts.length} contracts returned for driver with id ${driverId}.`);
+      res.send(contracts);
+    } catch (err) {
+      this.log.error(`There was an error returning contracts for driver with id - ${driverId} because: ${err._message}`);
+      res.status(400).send(err._message);
+    }
+  }
 
-  //   }
-  // }
+  async editContract(req, res) {
+    const { driverId, contractId } = req.params;
+    const { body } = req;
+    try {
+      const editedContract = await this.contractService.updateContract(contractId, body);
+      this.log.info(`Contract with id - ${contractId} edited by driver with id - ${driverId}.`);
+      res.send(editedContract);
+    } catch (err) {
+      this.log.error(`There was an error updating contract with id - ${contractId} for driver with id ${driverId} because ${err.message}.`);
+      res.status(400).send(err.message);
+    }
+  }
+
+
+// </driverControlle>
 }
 
 module.exports = DriverController;
