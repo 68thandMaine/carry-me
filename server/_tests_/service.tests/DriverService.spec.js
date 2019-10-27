@@ -10,7 +10,7 @@ const { compareObjects } = testServices;
 const Driver = require('../../src/models/Driver.model');
 const mockDrivers = require('../mock-data/mock-driver');
 
-describe.skip('DriverService', () => {
+describe('DriverService', () => {
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/driver';
     await mongoose.connect(url, {
@@ -71,7 +71,7 @@ describe.skip('DriverService', () => {
       await Driver.deleteMany();
       const driver = mockDrivers[1];
       const foundDriver = await DriverService.getDriverById(driver._id);
-      expect(foundDriver).toBe('The driver was not found in the database');
+      expect(foundDriver).toBe('The driver was not found in the database.');
       done();
     });
     it('If the driverId exisits, then the driver with that id is returned', async (done) => {

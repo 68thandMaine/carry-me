@@ -10,15 +10,17 @@ exports.compareObjects = (expected, received) => {
 };
 
 exports.comparePropertiesAndValues = (expected, received) => {
+  const expectedObject = Object.entries(expected);
+  const receivedObject = Object.entries(received._doc);
   let matchedValues = 0;
-  for (const expectedProperty in expected) {
-    for (const receivedProperty in received._doc) {
-      if (receivedProperty == expectedProperty) {
-        matchedValues++;
-        expect(received[receivedProperty].toString()).toEqual(expected[expectedProperty].toString());
+  for (let i = 0; i < expectedObject.length; i += 1) {
+    for (let j = 0; j < receivedObject.length; j += 1) {
+      if (receivedObject[j].toString() == expectedObject[i].toString()) {
+        matchedValues += 1;
+        expect(receivedObject[j].toString()).toEqual(expectedObject[i].toString());
       }
     }
-    // Exected length -1 becasue of __v property
-    expect(matchedValues).toBe(Object.keys(expected).length - 1);
   }
+  // Exected length -1 becasue of __v property
+  expect(matchedValues).toBe(Object.keys(expected).length - 1);
 };

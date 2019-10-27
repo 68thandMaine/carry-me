@@ -7,11 +7,10 @@ const request = supertest(app);
 const Contract = require('../../src/models/Contract.model');
 const Driver = require('../../src/models/Driver.model');
 const mockContracts = require('../mock-data/mock-contracts.js');
-const mockEntities = require('../mock-data/mock-entity.js');
 const mockDrivers = require('../mock-data/mock-driver.js');
 
 
-describe.skip('Driver endpoints', () => {
+describe('Driver endpoints', () => {
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/driver';
     await mongoose.connect(url, {
@@ -53,10 +52,10 @@ describe.skip('Driver endpoints', () => {
       expect(getDriver.status).toBe(200);
       done();
     });
-    it('GET /driver/:driverId will return 400 if a user is not in the database', async (done) => {
+    it('GET /driver/:driverId will return 404 if a user is not in the database', async (done) => {
       const driverID = mockDrivers[1]._id;
       const getDriver = await request.get(`/driver/${driverID}`);
-      expect(getDriver.status).toBe(400);
+      expect(getDriver.status).toBe(404);
       expect(getDriver.text).toEqual('The driver was not found in the database.');
       done();
     });
@@ -116,10 +115,10 @@ describe.skip('Driver endpoints', () => {
       expect(allDriversAfterDeleteLength).toBe(allDriversLength - 1);
       done();
     });
-    it('DELETE /driver/:driverId will return 400 and an error if unable to delete driver.', async (done) => {
+    it('DELETE /driver/:driverId will return 404 and an error if unable to delete driver.', async (done) => {
       await Driver.insertMany(mockDrivers[0]);
       const deleted = await request.delete(`/driver/${mockDrivers[1]._id}`);
-      expect(deleted.status).toBe(400);
+      expect(deleted.status).toBe(404);
       expect(deleted.text).toEqual('There was an error deleting this driver account.');
       done();
     });
@@ -133,9 +132,9 @@ describe.skip('Driver endpoints', () => {
       expect(updatedDriver.body).not.toEqual(mockDrivers[1]);
       done();
     });
-    it('PUT /driver/:driverId will return 400 if unsuccessfully updated.', async (done) => {
+    it('PUT /driver/:driverId will return 404 if unsuccessfully updated.', async (done) => {
       const updatedDriver = await request.put(`/driver/${mockDrivers[1]._id}`);
-      expect(updatedDriver.status).toBe(400);
+      expect(updatedDriver.status).toBe(404);
       expect(updatedDriver.text).toStrictEqual('Driver could not be updated. Invalid ID.');
       done();
     });

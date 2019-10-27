@@ -8,7 +8,7 @@ const mockVehicles = require('../mock-data/mock-vehicles');
 
 const request = supertest(app);
 
-describe.skip('vehicle endpoints', () => {
+describe('vehicle endpoints', () => {
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/vehcile';
     await mongoose.connect(url, {

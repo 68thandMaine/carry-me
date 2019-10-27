@@ -36,7 +36,7 @@ class DriverController {
       const { driverId } = req.params;
       const foundDriver = await this.driverService.getDriverById(driverId);
       if (foundDriver.length > 0) {
-        res.status(400).send(foundDriver);
+        res.status(404).send(foundDriver);
       } else {
         res.send(foundDriver);
       }
@@ -50,7 +50,7 @@ class DriverController {
     try {
       const deleted = await this.driverService.deleteDriver(driverId);
       if (deleted.length > 0) {
-        res.status(400).send(deleted);
+        res.status(404).send(deleted);
       } else {
         res.send(deleted);
       }
@@ -66,7 +66,7 @@ class DriverController {
     try {
       const updated = await this.driverService.updateDriver(driverId, body);
       if (updated.length > 0) {
-        res.status(400).send(updated);
+        res.status(404).send(updated);
       } else {
         res.send(updated);
       }

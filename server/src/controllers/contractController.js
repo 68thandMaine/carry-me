@@ -7,8 +7,8 @@ class ContractController {
 
   async index(req, res) {
     try {
-      const result = await this.contractService.listAllContracts();
-      res.send(result)
+      const result = await this.contractService.getAllContracts();
+      res.send(result);
     } catch (err) {
       this.log.error('There was an issue returning all contracts from the database.');
       res.send(err._message);
@@ -17,7 +17,7 @@ class ContractController {
 
   async create(req, res) {
     const { entityId } = req.params;
-    let { body } = req;
+    const { body } = req;
     try {
       const result = await this.contractService.createNewContract(entityId, body);
       this.log.info(`Contract ${result._id} created for entity ${entityId}.`);
@@ -48,7 +48,7 @@ class ContractController {
       res.send(contract);
     } catch (err) {
       this.log.error(`There was an error finding contract with id - ${contractId} becasue ${err.message}.`);
-      res.status(400).send(err);
+      res.status(404).send(err);
     }
   }
 
@@ -61,7 +61,7 @@ class ContractController {
       res.send(contract);
     } catch (err) {
       this.log.error(`Error updatting contract with id - ${contractId} because: ${err.message}`);
-      res.status(400).send(err);
+      res.status(404).send(err);
     }
   }
 

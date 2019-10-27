@@ -12,7 +12,7 @@ const mockDrivers = require('../mock-data/mock-driver');
 const Contract = require('../../src/models/Contract.model');
 const mockContracts = require('../mock-data/mock-contracts');
 
-describe.skip('ContractService', () => {
+describe('ContractService', () => {
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/contract';
     await mongoose.connect(url, {
@@ -75,9 +75,10 @@ describe.skip('ContractService', () => {
       done();
     });
     it('showOneEntityContract() returns one contract from the database.', async (done) => {
+      const entityId = mockEntities[0]._id;
       const contract = mockContracts[2];
       const contractId = contract._id;
-      const foundContract = await ContractService.showOneEntityContract(contractId);
+      const foundContract = await ContractService.showOneEntityContract(entityId, contractId);
       comparePropertiesAndValues(contract, foundContract);
       done();
     });
@@ -91,10 +92,10 @@ describe.skip('ContractService', () => {
       expect(updatedContract._id.toString()).toEqual(contractId);
       done();
     });
-    it('entityUpdateContract() will return an error message if the contractId is not valid.', async (done) => {
+    it('updateContract() will return an error message if the contractId is not valid.', async (done) => {
       const contract = mockContracts[0];
       const contractId = contract._id;
-      const updatedContract = await ContractService.entityUpdateContract(contractId, {
+      const updatedContract = await ContractService.updateContract(contractId, {
         location_start: 'Stafford, VA',
       });
       expect(updatedContract).toEqual('There was an error finding a contract with the given Id.');
@@ -104,11 +105,11 @@ describe.skip('ContractService', () => {
       const contract = mockContracts[2];
       const { entity } = contract;
       const contractId = contract._id;
-      const deletedContract = await ContractService.deleteContract(contractId);
+      const deletedContract = await ContractService.deleteContract(entity, contractId);
       const allEntityContracts = await ContractService.showEntityContracts(entity);
       expect(deletedContract.deletedCount).toBe(1);
       // One of the mock contracts does not have an entity it, so subtract 1
-      expect(allEntityContracts.length).toEqual(mockContracts.length - 2);
+      expect(allEntityContracts.length).toEqual(mockContracts.length - 1);
       done();
     });
     it('deleteContract() will return an error message if the contractId is invalid.', async (done) => {

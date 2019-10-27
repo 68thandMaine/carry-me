@@ -30,12 +30,11 @@ app.use(bodyParser.urlencoded({ limit: '50mb', extended: true}));
 app.use(cors());
 
 
-app.use('/admin', admin);
-// app.use('/contract', contract);
 app.use('/vehicle', vehicle);
 contract.register(app, serviceLocator);
 driver.register(app, serviceLocator);
 entity.register(app, serviceLocator);
+admin.register(app, serviceLocator);
 
 const server = app.listen(config.app.port, () => {
   console.log(`${config.app.name} Server is running`);

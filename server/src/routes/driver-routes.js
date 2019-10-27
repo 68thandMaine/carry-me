@@ -1,7 +1,4 @@
 const auth0 = require('../../lib/auth0');
-// Router.get('/:driverId/contracts', driverController.showContracts);
-// Router.get('/:driverId/:contractId', driverController.showOneContract);
-
 
 module.exports.register = (server, serviceLocator) => {
   server.get('/driver', (req, res, next) => serviceLocator.get('driverController').index(req, res, next));

@@ -18,6 +18,12 @@ class ContractService {
     return newContract;
   }
 
+  async getAllContracts() {
+    const Contract = this.mongoose.model('Contract');
+    const contracts = await Contract.find();
+    return contracts;
+  }
+
   async showEntityContracts(entityId) {
     const Contract = this.mongoose.model('Contract');
     const contracts = await Contract.find({ entity: entityId });
