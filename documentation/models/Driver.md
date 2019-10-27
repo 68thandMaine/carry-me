@@ -23,4 +23,8 @@ A driver is made up of a:
 
 ___
 
+## Creating a Driver
 
+When a new driver is created, logic that determines if the **email** provided exists already. If it does then the account is not created.
+
+_Carry-Me will not allow duplicate emails in the database_

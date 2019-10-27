@@ -1,22 +1,16 @@
-const Router = require('express').Router();
+module.exports.register = (server, serviceLocator) => {
+  server.get('/admin/entity', (req, res, next) => serviceLocator.get('entityController').index(req, res, next));
+  server.get('/admin/entity/:id', (req, res, next) => serviceLocator.get('entityController').show(req, res, next));
+  server.put('/admin/entity/:id', (req, res, next) => serviceLocator.get('entityController').update(req, res, next));
+  server.delete('/admin/entity/:id', (req, res, next) => serviceLocator.get('entityController').delete(req, res, next));
 
-const contractController = require('../controllers/contractController.js');
-const driverController = require('../controllers/driverController.js');
-const entityController = require('../controllers/entityController.js');
+  server.get('/admin/driver', (req, res, next) => serviceLocator.get('driverController').index(req, res, next));
+  server.get('/admin/driver/:driverId', (req, res, next) => serviceLocator.get('driverController').show(req, res, next));
+  server.put('/admin/driver/:driverId', (req, res, next) => serviceLocator.get('driverController').update(req, res, next));
+  server.delete('/admin/driver/:driverId', (req, res, next) => serviceLocator.get('driverController').delete(req, res, next));
 
-
-/** ADMIN ROUTES */
-Router.get('/contract', contractController.index);
-Router.get('/contract/:contractId', contractController.showOneContract);
-Router.put('/contract/:contractId', contractController.update);
-Router.delete('/contract/:contractId', contractController.delete);
-// Router.get('/entity', entityController.index);
-// Router.get('/entity/:id', entityController.show);
-// Router.put('/entity/:id', entityController.update);
-// Router.delete('/entity/:id', entityController.delete);
-Router.get('/driver', driverController.index);
-Router.get('/driver/:driverId', driverController.show);
-Router.put('/driver/:driverId', driverController.update);
-Router.delete('/driver/:driverId', driverController.delete);
-
-module.exports = Router;
+  server.get('/admin/contract', (req, res, next) => serviceLocator.get('contractController').index(req, res, next));
+  server.get('/admin/contract/:contractId', (req, res, next) => serviceLocator.get('contractController').show(req, res, next));
+  server.put('/admin/contract/:contractId', (req, res, next) => serviceLocator.get('contractController').update(req, res, next));
+  server.delete('/admin/contract/:contractId', (req, res, next) => serviceLocator.get('contractController').delete(req, res, next));
+};

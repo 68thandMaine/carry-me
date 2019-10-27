@@ -8,7 +8,7 @@ class EntityService {
   async listAllEntities() {
     const Entity = this.mongoose.model('Entity');
     const entities = await Entity.find();
-    this.log.info('All entities returned');
+    this.log.info(`${entities.length} Entities returned.`);
     return entities;
   }
 
@@ -18,9 +18,8 @@ class EntityService {
     const entity = await Entity.findOne({ entityName });
     
     if (entity) {
-      return 'Entity with this entityname already exisits.';
+      return 'Entity with this name already exists.';
     }
-
     let newEntity = new Entity(body);
     newEntity = await newEntity.save();
     this.log.info('Entity created successfully.');
@@ -30,12 +29,10 @@ class EntityService {
   async getEntityById(entityId) {
     const Entity = this.mongoose.model('Entity');
     const entity = await Entity.findOne({ _id: entityId });
-
     if (!entity) {
       this.log.error(`Entity with id: ${entityId} was not found.`);
       return `Entity with id - ${entityId} does not exist in the database.`;
     }
-
     this.log.info('Entity fetched successfully.');
     return entity;
   }
@@ -43,11 +40,12 @@ class EntityService {
   async deleteEntity(entityId) {
     const Entity = this.mongoose.model('Entity');
     const entity = await Entity.deleteOne({ _id: entityId });
-    if (!entity) {
-      return `Entity with id ${entityId} does not exist.`;
+    if (entity.deletedCount === 0) {
+      this.log.error(`Entity with id - ${entityId} does not exist.`);
+      return `Entity with id - ${entityId} does not exist.`;
     }
     entity.message = 'Entity deleted successfully.';
-    this.log.info('Entity deleted successfully.');
+    this.log.info(`Entity with id - ${entityId} was deleted successfully.`);
     return entity;
   }
 
@@ -57,10 +55,8 @@ class EntityService {
       new: true,
       runValidators: true,
     });
-
-    if(!entity) {
-      return `Entity with id ${id} could not be updated.`;
-      
+    if (!entity) {
+      return `Entity with id - ${id} could not be updated.`;
     }
     this.log.info('Entity successfully updated');
     return entity;

@@ -1,72 +1,107 @@
 const Driver = require('../models/Driver.model');
 const Contract = require('../models/Contract.model');
 
-exports.create = async (req, res) => {
-  const newDriver = await new Driver(req.body).save();
-  (newDriver) ? res.send(newDriver) : res.status(400).send('Some of the required fields are missing.');
-};
+class DriverController {
+  constructor(log, driverService, contractService, httpStatus) {
+    this.log = log;
+    this.driverService = driverService;
+    this.contractService = contractService;
+    this.httpStatus = httpStatus;
+  }
 
-exports.show = async (req, res) => {
-  const driver = await Driver.findOne({
-    _id: req.params.driverId,
-  }, (err, foundDriver) => foundDriver);
-  (driver) ? res.send(driver) : res.status(404).send('Driver ID not found.');
-};
+  async index(req, res) {
+    try {
+      const result = await this.driverService.listAllDrivers();
+      res.send(result);
+    } catch (err) {
+      this.log.error(err._message);
+      res.send(err);
+    }
+  }
 
-exports.showContracts = async (req, res)=> {
-  const contracts = await Contract.find({ 
-    driver: req.params.driverId
-  }).exec((err, contract) => {
-    if (err) {
+  async create(req, res) {
+    try {
+      const { body } = req;
+      const result = await this.driverService.createDriver(body);
+      res.send(result);
+    } catch (err) {
+      // Create custom logger function to get all the specifics behind the error.
+      res.status(400)
+        .send(err._message);
+    }
+  }
+
+  async show(req, res) {
+    try {
+      const { driverId } = req.params;
+      const foundDriver = await this.driverService.getDriverById(driverId);
+      if (foundDriver.length > 0) {
+        res.status(404).send(foundDriver);
+      } else {
+        res.send(foundDriver);
+      }
+    } catch (err) {
+      res.send(err);
+    }
+  }
+
+  async delete(req, res) {
+    const { driverId } = req.params;
+    try {
+      const deleted = await this.driverService.deleteDriver(driverId);
+      if (deleted.length > 0) {
+        res.status(404).send(deleted);
+      } else {
+        res.send(deleted);
+      }
+      res.send(deleted);
+    } catch (err) {
       res.send(err._message);
-    } else {
-      res.send(contract);
     }
-  });
-};
+  }
 
-exports.showOneContract = async (req, res) => {
-  await Contract.findOne({
-    _id: req.params.contractId,
-  }, (err, foundContract) => {
-    if (err) {
+  async update(req, res) {
+    const { driverId } = req.params;
+    const { body } = req;
+    try {
+      const updated = await this.driverService.updateDriver(driverId, body);
+      if (updated.length > 0) {
+        res.status(404).send(updated);
+      } else {
+        res.send(updated);
+      }
+    } catch (err) {
       res.send(err._message);
-    } else {
-      res.send(foundContract);
     }
-  });
-};
+  }
 
-exports.update = async (req, res) => {
-  await Driver.findByIdAndUpdate(req.params.driverId, req.body, {
-    new: true,
-    runValidators: true,
-  }, (err, updatedDriver) => {
-    if (err) {
-      res.send(err._message);
-    } else {
-      res.send(updatedDriver);
+  async showContracts(req, res) {
+    const { driverId } = req.params;
+    try {
+      const contracts = await this.contractService.showDriverContracts(driverId);
+      this.log.info(`${contracts.length} contracts returned for driver with id ${driverId}.`);
+      res.send(contracts);
+    } catch (err) {
+      this.log.error(`There was an error returning contracts for driver with id - ${driverId} because: ${err._message}`);
+      res.status(400).send(err._message);
     }
-  });
-};
+  }
 
-exports.delete = async (req, res) => {
-  await Driver.findByIdAndDelete(req.params.driverId, (err) => {
-    if (err) {
-      res.send('something went wrong when deleting this driver.');
-    } else {
-      res.send('Successfully deleted driver.');
+  async editContract(req, res) {
+    const { driverId, contractId } = req.params;
+    const { body } = req;
+    try {
+      const editedContract = await this.contractService.updateContract(contractId, body);
+      this.log.info(`Contract with id - ${contractId} edited by driver with id - ${driverId}.`);
+      res.send(editedContract);
+    } catch (err) {
+      this.log.error(`There was an error updating contract with id - ${contractId} for driver with id ${driverId} because ${err.message}.`);
+      res.status(400).send(err.message);
     }
-  });
-};
+  }
 
-exports.index = async (req, res) => {
-  Driver.find().exec((err, drivers) => {
-    if (err) {
-      res.send("This doesn't exist");
-    } else {
-      res.send(drivers);
-    }
-  });
-};
 
+// </driverControlle>
+}
+
+module.exports = DriverController;

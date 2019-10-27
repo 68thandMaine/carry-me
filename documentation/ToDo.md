@@ -3,26 +3,18 @@
 **Backend Tasks**
 | Task | Complete |
 | --- | --- |
+| Write a function to verify entityId's and driverId's on contract routes | [ ] |
+| Write driver search for contracts logic and test | [ ] |
+| Create Custom Functions for logging all important error information | [ ] |
 | Update Contract model for bid history property | [ ] |
 | Write model tests | [ ] |
 | Refactor Test files | [ ]|
-| Add authentication on the backend | [x] |
-| Create a tested vehicle class and corresponding routes | [x] |
-| Create property for holding pictures of a vehcile | [x] |
-| Discuss what features a driver should have | [x] |
-| Discuss what features an entity should have | [x] |
-
-___
-
-**Frontend Tasks**
-
-___
-
-## NOTES
-
-| Activity | Activity |
-|--|--|
-| [Auth0 refactor](#auth0-Refactor) | |
+| Decide how to add ids to contracts. Frontend or backend? | [X] |
+| Show Mike how to set up a .env file | [X] |
+| Create a tested vehicle class and corresponding routes | [X] |
+| Discuss what features a driver should have | [X] |
+| Discuss what features an entity should have | [X] |
+| Add authentication on the backend | [X] |
 
 I need to understand write about MongoDB and Mongoose schemas in detail.
  
