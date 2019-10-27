@@ -11,7 +11,7 @@ class EntityController {
       res.send(result);
     } catch (err) {
       this.log.error(err._message);
-      res.send(err);
+      res.status(400).send(err);
     }
   }
 
@@ -21,7 +21,7 @@ class EntityController {
       const result = await this.entityService.createEntity(body);
       res.send(result);
     } catch (err) {
-      this.log.error(err._message);
+      this.log.error(err.message);
       res.send(err);
     }
   }
@@ -33,7 +33,7 @@ class EntityController {
       res.send(foundEntity);
     } catch (err) {
       this.log.error(err._message);
-      res.send(err);
+      res.status(400).send(err);
     }
   }
 
@@ -43,8 +43,8 @@ class EntityController {
       const deleted = await this.entityService.deleteEntity(id);
       res.send(deleted);
     } catch (err) {
-      this.log.error(err._message);
-      res.send(err);
+      this.log.error(err.message);
+      res.status(400).send(err.message);
     }
   }
 

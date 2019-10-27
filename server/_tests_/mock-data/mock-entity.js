@@ -13,10 +13,10 @@ const correctEntry = {
   city: 'Fairfax',
   state: 'VA',
   zip: 22030,
-  contracts:[ ],
+  contracts:[],
 };
 const noId = {
-  password: 'vallygurl14',
+  password: 'LoveLife12',
   entityName: 'Anderson Valley Group',
   createdAt: '2019-10-05',
   zip: 322,
@@ -29,6 +29,7 @@ const noId = {
   email: 'gela@gmail.com',
   city: 'Oak City',
   accountOwner_PhoneType: 'work',
+  contracts:[],
 };
 const entity1 = {
   _id: '5d96cc3750ffe5bac5246dfd',

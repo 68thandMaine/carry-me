@@ -11,7 +11,7 @@ const mockEntities = require('../mock-data/mock-entity.js');
 const mockDrivers = require('../mock-data/mock-driver.js');
 
 
-describe('Driver endpoints', () => {
+describe.skip('Driver endpoints', () => {
   beforeAll(async (done) => {
     const url = 'mongodb://localhost/driver';
     await mongoose.connect(url, {

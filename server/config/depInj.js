@@ -1,3 +1,4 @@
+
 const serviceLocator = require('../lib/service_locator');
 const config = require('./config')();
 

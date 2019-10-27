@@ -2585,3 +2585,1674 @@
   level: 'error',
   label: 'Carry-Me API',
   timestamp: '2019-10-26T01:19:18.421Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:16.953Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:16.988Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:17.005Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:17.016Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:17.044Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:17.075Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:17.082Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:17.112Z' }
+{ message:
+   'Driver with id - 5db3a401721d5026ea3eea26 was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:17.150Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:17.159Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:17.174Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:17.194Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:17.207Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:58.156Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:58.201Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:58.231Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:58.242Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:58.268Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:58.291Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:58.304Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:58.332Z' }
+{ message:
+   'Driver with id - 5db3a42a4aee7f26eaf7fb3a was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:58.361Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:58.368Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:58.382Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:58.401Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:40:58.414Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:11.307Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:11.340Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:11.360Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:11.369Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:11.391Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:11.413Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:11.420Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:11.462Z' }
+{ message:
+   'Driver with id - 5db3a4377adc8426eaee6060 was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:11.495Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:11.518Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:11.538Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:11.569Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:11.581Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:49.477Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:49.511Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:49.528Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:49.538Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:49.561Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:49.594Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:49.608Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:49.633Z' }
+{ message:
+   'Driver with id - 5db3a45d6e231f26ea943fee was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:49.674Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:49.680Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:49.692Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:49.710Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T01:41:49.720Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:08.021Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:08.055Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:08.072Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:08.090Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:08.113Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:08.138Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:08.146Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:08.173Z' }
+{ message:
+   'Driver with id - 5db49e48b59b6c26eae5d397 was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:08.207Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:08.230Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:08.244Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:08.263Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:08.274Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:25.605Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:25.641Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:25.663Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:25.673Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:25.697Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:25.717Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:25.724Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:25.753Z' }
+{ message:
+   'Driver with id - 5db49e5922ea1526ea38e707 was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:25.786Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:25.794Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:25.889Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:25.910Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:25.924Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:56.849Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:56.887Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:56.905Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:56.916Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:56.940Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:56.962Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:56.972Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:57.006Z' }
+{ message:
+   'Driver with id - 5db49e79b7aacd26ea4c8dbb was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:57.045Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:57.056Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:57.117Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:57.138Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:28:57.158Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:04.226Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:04.259Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:04.277Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:04.287Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:04.310Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:04.331Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:04.339Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:04.365Z' }
+{ message:
+   'Driver with id - 5db49e8022a91d26ea63c437 was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:04.397Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:04.404Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:04.418Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:04.451Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:04.461Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:52.385Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:52.420Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:52.438Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:52.447Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:52.470Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:52.495Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:52.503Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:52.531Z' }
+{ message:
+   'Driver with id - 5db49eb06aee4f26ea707c1d was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:52.563Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:52.570Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:52.583Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:52.602Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:29:52.612Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:02.653Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:02.711Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:02.729Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:02.740Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:02.761Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:02.782Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:02.790Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:02.817Z' }
+{ message:
+   'Driver with id - 5db49ebae3c1af26ea33c009 was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:02.846Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:02.852Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:02.866Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:02.884Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:02.896Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:15.073Z' }
+{ message: '0 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:15.800Z' }
+{ message: '3 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:15.834Z' }
+{ message: 'Driver fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:15.851Z' }
+{ message:
+   'Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:15.861Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:15.883Z' }
+{ message:
+   '2 contracts returned for driver with id 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:15.904Z' }
+{ message:
+   'Contract with id - 5d96cc3750ffe5bac5346dff edited by driver with id - 5da39be0d4381609f9bc9c26.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:15.911Z' }
+{ message: 'Driver created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:15.937Z' }
+{ message:
+   'Driver with id - 5db49ec793f97126ea112225 was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:15.999Z' }
+{ message: '2 drivers returned from the database.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:16.123Z' }
+{ message:
+   'Deletion failed: Driver with id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:16.138Z' }
+{ message: 'Driver successfully updated.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:16.162Z' }
+{ message:
+   'Driver could not be updated becasue id - 5da39be0d4381609f9bc9c26 was not found in the database.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:30:16.173Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:32:50.119Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:33:16.649Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:37:09.351Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:37:25.735Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:37:47.744Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:38:13.939Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:38:41.170Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:39:08.060Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:39:53.455Z' }
+{ message: 'Entity validation failed',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:50:56.940Z' }
+{ message:
+   'Entity validation failed: createdAt: Path `createdAt` is required., street: Path `street` is required., entityPhoneNumber: Path `entityPhoneNumber` is required., accountOwner_PhoneNumber: Path `accountOwner_PhoneNumber` is required., accountOwner_PhoneType: Path `accountOwner_PhoneType` is required., accountOwner_LastName: Path `accountOwner_LastName` is required., accountOwner_FirstName: Path `accountOwner_FirstName` is required., entityName: Path `entityName` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:51:24.768Z' }
+{ message:
+   'Entity validation failed: createdAt: Path `createdAt` is required., street: Path `street` is required., entityPhoneNumber: Path `entityPhoneNumber` is required., accountOwner_PhoneNumber: Path `accountOwner_PhoneNumber` is required., accountOwner_PhoneType: Path `accountOwner_PhoneType` is required., accountOwner_LastName: Path `accountOwner_LastName` is required., accountOwner_FirstName: Path `accountOwner_FirstName` is required., entityName: Path `entityName` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:52:01.914Z' }
+{ message:
+   'Entity validation failed: createdAt: Path `createdAt` is required., street: Path `street` is required., entityPhoneNumber: Path `entityPhoneNumber` is required., accountOwner_PhoneNumber: Path `accountOwner_PhoneNumber` is required., accountOwner_PhoneType: Path `accountOwner_PhoneType` is required., accountOwner_LastName: Path `accountOwner_LastName` is required., accountOwner_FirstName: Path `accountOwner_FirstName` is required., entityName: Path `entityName` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:54:10.086Z' }
+{ message:
+   'Entity validation failed: createdAt: Path `createdAt` is required., street: Path `street` is required., entityPhoneNumber: Path `entityPhoneNumber` is required., accountOwner_PhoneNumber: Path `accountOwner_PhoneNumber` is required., accountOwner_PhoneType: Path `accountOwner_PhoneType` is required., accountOwner_LastName: Path `accountOwner_LastName` is required., accountOwner_FirstName: Path `accountOwner_FirstName` is required., entityName: Path `entityName` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:56:47.495Z' }
+{ message:
+   'Entity validation failed: createdAt: Path `createdAt` is required., street: Path `street` is required., entityPhoneNumber: Path `entityPhoneNumber` is required., accountOwner_PhoneNumber: Path `accountOwner_PhoneNumber` is required., accountOwner_PhoneType: Path `accountOwner_PhoneType` is required., accountOwner_LastName: Path `accountOwner_LastName` is required., accountOwner_FirstName: Path `accountOwner_FirstName` is required., entityName: Path `entityName` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:57:02.154Z' }
+{ message:
+   'Entity validation failed: createdAt: Path `createdAt` is required., street: Path `street` is required., entityPhoneNumber: Path `entityPhoneNumber` is required., accountOwner_PhoneNumber: Path `accountOwner_PhoneNumber` is required., accountOwner_PhoneType: Path `accountOwner_PhoneType` is required., accountOwner_LastName: Path `accountOwner_LastName` is required., accountOwner_FirstName: Path `accountOwner_FirstName` is required., entityName: Path `entityName` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:57:17.348Z' }
+{ message:
+   'Entity validation failed: createdAt: Path `createdAt` is required., street: Path `street` is required., entityPhoneNumber: Path `entityPhoneNumber` is required., accountOwner_PhoneNumber: Path `accountOwner_PhoneNumber` is required., accountOwner_PhoneType: Path `accountOwner_PhoneType` is required., accountOwner_LastName: Path `accountOwner_LastName` is required., accountOwner_FirstName: Path `accountOwner_FirstName` is required., entityName: Path `entityName` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:57:31.034Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:57:57.798Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T19:59:56.104Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:01:24.592Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:01:39.465Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:01:41.323Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:02:02.755Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:02:04.710Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:02:35.017Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:02:37.522Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:03:43.759Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:03:45.748Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:04:42.553Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:04:47.593Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:04:53.332Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:04:54.538Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:05:14.768Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:05:15.972Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:05:52.207Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:05:53.771Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:05:58.999Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:06:00.056Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:06:27.264Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:06:29.479Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:07:58.727Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:08:00.281Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:08:41.313Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:08:43.881Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:09:33.119Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T20:09:34.652Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T22:50:10.884Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T22:50:13.251Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T22:50:50.738Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T22:51:12.756Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:00:54.129Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:02:05.076Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:03:05.793Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:03:19.491Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:03:51.476Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:03:54.702Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:04:59.659Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:05:00.105Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:06:24.206Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:06:25.927Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:07:19.909Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:07:21.385Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:07:54.590Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:08:20.461Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:09:33.846Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:09:58.349Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:09:58.371Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:09:58.386Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:12:58.051Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:12:58.189Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:12:58.232Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:13:09.574Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:13:09.594Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:13:09.607Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:13:11.664Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:13:25.102Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:14:13.271Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:15:50.620Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:15:50.647Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:17:00.309Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:18:40.604Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:18:57.927Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:19:52.373Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:20:56.033Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:21:34.482Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:23:46.108Z' }
+{ message:
+   'Entity validation failed: createdAt: Path `createdAt` is required., street: Path `street` is required., entityPhoneNumber: Path `entityPhoneNumber` is required., accountOwner_PhoneNumber: Path `accountOwner_PhoneNumber` is required., accountOwner_PhoneType: Path `accountOwner_PhoneType` is required., accountOwner_LastName: Path `accountOwner_LastName` is required., accountOwner_FirstName: Path `accountOwner_FirstName` is required., entityName: Path `entityName` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:23:46.136Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:23:46.162Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:23:46.184Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:23:46.224Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:26:20.985Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:26:38.157Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:28:49.939Z' }
+{ message:
+   'Entity validation failed: createdAt: Path `createdAt` is required., street: Path `street` is required., entityPhoneNumber: Path `entityPhoneNumber` is required., accountOwner_PhoneNumber: Path `accountOwner_PhoneNumber` is required., accountOwner_PhoneType: Path `accountOwner_PhoneType` is required., accountOwner_LastName: Path `accountOwner_LastName` is required., accountOwner_FirstName: Path `accountOwner_FirstName` is required., entityName: Path `entityName` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:28:49.968Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:28:49.993Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:28:50.016Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:28:50.035Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:28:50.054Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:28:50.072Z' }
+{ message: 'Entity deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:28:50.077Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:28:50.084Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:29:03.892Z' }
+{ message: 'Entity deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:29:03.902Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:29:03.910Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:30:08.885Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:30:31.004Z' }
+{ message:
+   'Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:30:38.986Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:31:04.892Z' }
+{ message:
+   'Entity validation failed: createdAt: Path `createdAt` is required., street: Path `street` is required., entityPhoneNumber: Path `entityPhoneNumber` is required., accountOwner_PhoneNumber: Path `accountOwner_PhoneNumber` is required., accountOwner_PhoneType: Path `accountOwner_PhoneType` is required., accountOwner_LastName: Path `accountOwner_LastName` is required., accountOwner_FirstName: Path `accountOwner_FirstName` is required., entityName: Path `entityName` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:31:04.964Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:31:05.024Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:31:05.067Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:31:05.100Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:31:05.132Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:31:05.190Z' }
+{ message: 'Entity deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:31:05.214Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:31:05.230Z' }
+{ message:
+   'Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:31:05.250Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:31:17.161Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:31:17.192Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:31:17.215Z' }
+{ message: 'Entity deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:32:55.138Z' }
+{ message: 'Entity deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:33:32.226Z' }
+{ message: 'Entity deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:33:57.389Z' }
+{ message: 'Entity deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:36:38.553Z' }
+{ message: 'Entity deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:36:46.756Z' }
+{ message: 'Entity with id - 5da39be0d4381609f9bc9c26 does not exist.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:39:06.700Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:39:37.350Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:39:37.435Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:39:37.477Z' }
+{ message: 'Entity with id - 5da39be0d4381609f9bc9c26 does not exist.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:39:37.502Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:41:06.184Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:41:23.385Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:41:23.405Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:41:23.432Z' }
+{ message: 'Entity with id - 5da39be0d4381609f9bc9c26 does not exist.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:41:23.691Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:41:23.713Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:42:53.913Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:42:53.930Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:42:53.944Z' }
+{ message: 'Entity with id - 5da39be0d4381609f9bc9c26 does not exist.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:42:53.958Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:42:53.973Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:43:17.224Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:43:17.243Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:43:17.269Z' }
+{ message: 'Entity with id - 5da39be0d4381609f9bc9c26 does not exist.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:43:17.283Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:43:17.300Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:43:37.240Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:43:37.257Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:43:37.270Z' }
+{ message: 'Entity with id - 5da39be0d4381609f9bc9c26 does not exist.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:43:37.286Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:43:37.298Z' }
+{ message: 'Entity successfully updated',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:49:18.292Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:50:40.359Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:50:40.377Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:50:40.393Z' }
+{ message: 'Entity with id - 5da39be0d4381609f9bc9c26 does not exist.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:50:40.406Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:50:40.422Z' }
+{ message: 'Entity successfully updated',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:50:40.460Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:50:58.429Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:50:58.530Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:50:58.570Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:50:58.598Z' }
+{ message: 'Entity with id - 5da39be0d4381609f9bc9c26 does not exist.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:50:58.654Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:50:58.679Z' }
+{ message: 'Entity successfully updated',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:50:58.760Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:51:50.934Z' }
+{ message: 'All entities returned',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:52:09.776Z' }
+{ message: '0 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:52:45.849Z' }
+{ message: '0 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-26T23:53:28.965Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:00:29.390Z' }
+{ message:
+   'Entity validation failed: createdAt: Path `createdAt` is required., street: Path `street` is required., entityPhoneNumber: Path `entityPhoneNumber` is required., accountOwner_PhoneNumber: Path `accountOwner_PhoneNumber` is required., accountOwner_PhoneType: Path `accountOwner_PhoneType` is required., accountOwner_LastName: Path `accountOwner_LastName` is required., accountOwner_FirstName: Path `accountOwner_FirstName` is required., entityName: Path `entityName` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:00:29.480Z' }
+{ message: '3 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:00:29.681Z' }
+{ message: '3 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:00:29.746Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:00:29.854Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:00:29.941Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:00:29.990Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:00:30.001Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:00:30.057Z' }
+{ message:
+   'Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:00:30.299Z' }
+{ message: 'Entity successfully updated',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:00:30.442Z' }
+{ message: '0 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:00:32.426Z' }
+{ message: 'Entity successfully updated',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:00:44.638Z' }
+{ message: '0 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:00:45.721Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:03:05.501Z' }
+{ message:
+   'Entity validation failed: createdAt: Path `createdAt` is required., street: Path `street` is required., entityPhoneNumber: Path `entityPhoneNumber` is required., accountOwner_PhoneNumber: Path `accountOwner_PhoneNumber` is required., accountOwner_PhoneType: Path `accountOwner_PhoneType` is required., accountOwner_LastName: Path `accountOwner_LastName` is required., accountOwner_FirstName: Path `accountOwner_FirstName` is required., entityName: Path `entityName` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:03:05.547Z' }
+{ message: '3 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:03:05.596Z' }
+{ message: '3 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:03:05.628Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:03:05.671Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:03:05.694Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:03:05.714Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:03:05.720Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:03:05.728Z' }
+{ message:
+   'Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:03:05.746Z' }
+{ message: 'Entity successfully updated',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:03:05.782Z' }
+{ message: '0 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:03:08.039Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:13:19.655Z' }
+{ message: '0 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:13:20.312Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:14:51.184Z' }
+{ message: '3 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:14:53.095Z' }
+{ message: '0 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:14:53.130Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:14:53.351Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:14:53.389Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:14:53.570Z' }
+{ message: 'Entity with id - 5da39be0d4381609f9bc9c26 does not exist.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:14:53.592Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:14:53.604Z' }
+{ message: 'Entity successfully updated',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:14:53.641Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:18.550Z' }
+{ message:
+   'Entity validation failed: createdAt: Path `createdAt` is required., street: Path `street` is required., entityPhoneNumber: Path `entityPhoneNumber` is required., accountOwner_PhoneNumber: Path `accountOwner_PhoneNumber` is required., accountOwner_PhoneType: Path `accountOwner_PhoneType` is required., accountOwner_LastName: Path `accountOwner_LastName` is required., accountOwner_FirstName: Path `accountOwner_FirstName` is required., entityName: Path `entityName` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:18.576Z' }
+{ message: '3 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:18.604Z' }
+{ message: '3 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:18.624Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:18.653Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:18.670Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:18.694Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:18.700Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:18.705Z' }
+{ message:
+   'Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:18.722Z' }
+{ message: 'Entity successfully updated',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:18.748Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:18.763Z' }
+{ message: '3 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:19.559Z' }
+{ message: '0 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:19.597Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:19.633Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:19.649Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:19.664Z' }
+{ message: 'Entity with id - 5da39be0d4381609f9bc9c26 does not exist.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:19.678Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:19.691Z' }
+{ message: 'Entity successfully updated',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:15:19.734Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:08.062Z' }
+{ message:
+   'Entity validation failed: createdAt: Path `createdAt` is required., street: Path `street` is required., entityPhoneNumber: Path `entityPhoneNumber` is required., accountOwner_PhoneNumber: Path `accountOwner_PhoneNumber` is required., accountOwner_PhoneType: Path `accountOwner_PhoneType` is required., accountOwner_LastName: Path `accountOwner_LastName` is required., accountOwner_FirstName: Path `accountOwner_FirstName` is required., entityName: Path `entityName` is required.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:08.092Z' }
+{ message: '0 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:08.116Z' }
+{ message: '3 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:08.140Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:08.160Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:08.179Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:08.198Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:08.203Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:08.209Z' }
+{ message:
+   'Cast to ObjectId failed for value "undefined" at path "_id" for model "Entity"',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:08.227Z' }
+{ message: 'Entity successfully updated',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:08.247Z' }
+{ message: undefined,
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:08.264Z' }
+{ message: '3 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:09.419Z' }
+{ message: '0 Entities returned.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:09.442Z' }
+{ message: 'Entity created successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:09.478Z' }
+{ message: 'Entity with id: 5d96cc3750ffe5bac5346dfd was not found.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:09.513Z' }
+{ message: 'Entity fetched successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:09.533Z' }
+{ message: 'Entity with id - 5da39be0d4381609f9bc9c26 does not exist.',
+  level: 'error',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:09.548Z' }
+{ message:
+   'Entity with id - 5d96cc3750ffe5bac5346dfd was deleted successfully.',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:09.563Z' }
+{ message: 'Entity successfully updated',
+  level: 'info',
+  label: 'Carry-Me API',
+  timestamp: '2019-10-27T00:16:09.599Z' }
