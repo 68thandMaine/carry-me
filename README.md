@@ -55,6 +55,15 @@ ___
 
 ## IV. Frontend
 
+### NPM packages
+
+| Dependency | Purpose |
+|---|---|
+|[node-sass](https://www.npmjs.com/package/node-sass)| Allows you to natively compile .scss to css at a faster speed and automatically. |
+|[axios](https://www.npmjs.com/package/axios) | Promise based HTTP client for the browswer and node.js. |
+| [react-transition-group](https://www.npmjs.com/package/react-transition-group)|Used to handle animations on route changes |
+| [react redux](https://react-redux.js.org/introduction/quick-start) | State management tool. Opted for Redux over context api for debugging and support for sagas. |
+
 To do:
 
 - Create directory structure

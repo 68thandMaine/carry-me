@@ -1,13 +1,11 @@
-.App {
-  text-align: center;
-}
+@import './variables.scss';
 
 .App-logo {
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
+.App {
+  background-color: $primary-color;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
