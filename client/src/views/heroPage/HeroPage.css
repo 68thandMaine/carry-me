@@ -1,0 +1,12 @@
+.heroPageWrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 100vh;
+    border: solid 1px red;
+    align-items: center;
+  }
+.firstStepsWrapper {
+    display: flex;
+    border: solid 2px blue;
+}
