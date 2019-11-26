@@ -13,9 +13,9 @@ function LoginForm(props) {
     setLoginFormInputs(loginFormInputs => ({...loginFormInputs, [e.target.name]: e.target.value}));
   }
 
-  function handleLogin(e) {
+  function login(e) {
     e.preventDefault();
-    console.log(loginFormInputs);
+    props.login(loginFormInputs);
   }
 
   return (
@@ -28,6 +28,7 @@ function LoginForm(props) {
         <Input 
           type='text'
           name='email'
+          testingId='email_login'
           placeholder='example@gmail.com'
           handleChange={handleInputChange}/>
         </div>
@@ -37,6 +38,7 @@ function LoginForm(props) {
         <Input
           type='text'
           name='password'
+          testingId='password_login'
           placeholder='**********'
           handleChange={handleInputChange} />
         
@@ -46,7 +48,7 @@ function LoginForm(props) {
           style='submit'
           text='submit'
           testingId='subtmitButton'
-          clickEvent={handleLogin}
+          clickEvent={login}
           />
           <div className='loginOptions'>
             <a>Forget User Id / Password</a>
@@ -58,7 +60,7 @@ function LoginForm(props) {
 }
 
 LoginForm.propType = {
-
+  login: PropTypes.func.isRequired,
 }
 
 export default LoginForm;

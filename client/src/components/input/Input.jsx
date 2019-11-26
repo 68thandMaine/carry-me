@@ -14,7 +14,7 @@ function Input(props) {
 Input.propType = {
   type: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
+  value: PropTypes.string,
   handleChange: PropTypes.func,
   placeholder: PropTypes.string,
 }

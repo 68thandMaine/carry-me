@@ -5,20 +5,21 @@ import './Toggler.scss';
 
 const Toggler = (props) => {
 
-const handlToggle = () => {
-  console.log(props)
+const handleToggle = () => {
   props.toggle(!props.value);
 };
 
   return (
     <div className='togglerWrapper'>
-      <p className='' onClick={handlToggle}></p>
+      {/* <p className='' onClick={handlToggle}></p> */}
       <input 
-        className='toggler' type='checkbox' 
+        className='toggler' 
+        type='checkbox' 
         name='toggler' 
         value={props.value} 
-        onClick={handlToggle}/>
-      <p  className='' onClick={handlToggle}></p>
+        data-cy={props.testingId}
+        onClick={handleToggle}/>
+      {/* <p  className='' onClick={handlToggle}></p> */}
     </div>
   )
 }
@@ -26,6 +27,7 @@ const handlToggle = () => {
 Toggler.propTypes = {
   value: PropTypes.bool.isRequired,
   toggle: PropTypes.func.isRequired,
+  testingId: PropTypes.string,
 };
 
 export default Toggler;

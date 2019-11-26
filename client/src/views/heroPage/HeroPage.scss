@@ -2,11 +2,12 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    height: 100vh;
     border: solid 1px #63FFEA;
     align-items: center;
   }
 .firstStepsWrapper {
-    display: flex;
     border: solid 2px blue;
+}
+.signUpWrapper {
+  border: solid 1px yellow;
 }

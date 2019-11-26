@@ -5,6 +5,14 @@ import './HeroPage.scss';
 
 function HeroPage(props) {
 
+    function handleLogin(creds) {
+        console.log('Login Credentials: ', creds);
+    }
+
+    function handleSignUp(creds) {
+        console.log('Signup Credentials: ', creds);
+    }
+
     return (
         <div className= "heroPageWrapper">
             <div className='col'>
@@ -18,10 +26,14 @@ function HeroPage(props) {
                 <div className='loginWrapper'>
                     <h1>Login</h1>
                     <Form
-                    formType='login' />
+                        formType='login'
+                        login={handleLogin} />
                 </div>
-                <div>
-                    {/* Signup */}
+                <div className="signUpWrapper">
+                    <h1>Sign Up</h1>
+                    <Form
+                        formType='signup'
+                        signUp={handleSignUp} />
                 </div>
             </div>
         </div>
