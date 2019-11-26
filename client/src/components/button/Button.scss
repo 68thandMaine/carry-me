@@ -1,0 +1,33 @@
+button {
+  outline: none !important;
+}
+button:hover {
+  cursor: pointer;
+}
+
+
+.welcome{ 
+    border: 10px solid black;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 600;
+    font-size: 3vh;
+    text-transform: uppercase;
+}
+
+.submit {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 18px;
+    background-color: #1c89ff;
+    border: solid 1px transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    transition: all .1s ease-in-out;
+    &:hover {
+      background-color: transparent;
+      border-color: #fff;
+      transition: all .1s ease-in-out;
+    }
+    
+  }

@@ -1,0 +1,23 @@
+.loginForm {
+  border: solid 1px red;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3vw;
+}
+.loginInput {
+  width: 100%;
+}
+.inputWrapper {
+  width: auto;
+}
+.loginActionWrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 2vw;
+}
+.loginOptions {
+  display: flex;
+  flex-flow: column nowrap;
+}
